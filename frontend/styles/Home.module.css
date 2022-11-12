@@ -43,6 +43,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  margin-top: -5em;
 }
 
 .title,
@@ -113,6 +114,7 @@
     width: 100%;
     flex-direction: column;
   }
+  
 }
 
 @media (prefers-color-scheme: dark) {
