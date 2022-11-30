@@ -17,7 +17,7 @@ export default function Home() {
           My name is Thomas Matlock
           <br />
           <hr />
-          Contact me for Software or Audit needs
+          Vist my Github <a href="https://github.com/zep1994">Thomas Matlock</a>
           <br />
           <hr />
           CISA Certified and Full Stack Develeper
