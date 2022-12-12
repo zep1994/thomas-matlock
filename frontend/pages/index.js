@@ -19,6 +19,8 @@ export default function Home() {
           <hr />
           Vist my Github <a href="https://github.com/zep1994">Thomas Matlock</a>
           <br />
+          Vist my <a href="/portfolio">Portfolio</a>
+          <br />
           <hr />
           CISA Certified and Full Stack Develeper
           <hr />
