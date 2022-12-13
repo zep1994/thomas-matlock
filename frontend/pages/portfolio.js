@@ -23,6 +23,9 @@ const portfolio = () => {
             <br />
             <h3>Mississippi Sport Medicine</h3>
             <br />
+            <img src="/images/nucor.png" className={styles.nucor} />
+            <br />
+            <h3>Nucor General Recycling</h3>
         </main>
     </div>
     )
