@@ -1,4 +1,6 @@
 .container {
-    background-image: linear-gradient(to right, #097973 , #00d4ff);
+    background: rgb(2,0,36);
+    background: linear-gradient(8deg, rgba(2,0,36,1) 0%, rgba(1,121,161,1) 95%);
+    position: relative;
 
 }

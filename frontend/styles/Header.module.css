@@ -2,13 +2,44 @@
 
 .header {
     width: 100%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100%;
 }
 
+.nav {
+  float: left;
+  position: fixed;
+  left: 0;
+  width: 20rem;
+  height: 100vh;
+  background-color: #020024;
+  color: #00d4ff;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column wrap;
+  justify-content: center;
 
+}
+
+.navUl {
+  margin-left: 0;
+  padding: 0;
+}
+
+.navUl li {
+  margin-top: 5rem;
+}
+
+.nav li {
+  position: relative;
+  margin: 15px;
+}
+
+.nav_MenuItems {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
 
 .headerImg {
     width: 250px;
@@ -17,6 +48,102 @@
     margin-top: 10%;
 }
 
+.headerImg_nav {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.navPrimaryHeader {
+  width: 50%;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3.5rem;
+}
+
+.navContactBtn {
+  width: 6rem;
+  padding: 10px;
+  border-radius: 25px;
+  outline: none;
+  display: flex;
+  border: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  background-color: #097973;
+}
+
+.nav_p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 3rem;
+  color: white;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  right: 0;
+  float: right;
+  position: relative;
+}
+
+.topLeft {
+  width: 50%;
+  height: 100vh;
+  float:left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.topRight {
+  width: 50%;
+  height: 100vh;
+  float: right;
+  position: relative;
+}
+
+.codingImg {
+  height: 40rem;
+  position: absolute;
+  right: 0;
+  top: 10rem;
+}
+
+.primaryTitle {
+ font-size: 64px;
+ margin: 0;
+}
+
+.secondaryTitle {
+  font-size: 40px;
+  margin: 0;
+  color: #097973;
+}
+
+
+.navPrimaryHeader h1 {
+  font-size: 16px;
+}
 
 @media (max-width: 425px) {
   .headerImg {
