@@ -3,5 +3,6 @@
     background: linear-gradient(8deg, rgba(2,0,36,1) 0%, rgba(1,121,161,1) 95%);
     position: relative;
     float: left;
+    width: 100%;
 
 }
