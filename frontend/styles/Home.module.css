@@ -22,6 +22,41 @@
   align-items: center;
 }
 
+.navigation {
+  list-style-type: none;
+  margin: auto;
+  width: 30rem;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  
+}
+
+.navLi {
+  display: inline;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navLi a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 3px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navigation li a:hover {
+  background-color: #111;
+}
+
+
 .footer a {
   display: flex;
   justify-content: center;
