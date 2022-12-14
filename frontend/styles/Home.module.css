@@ -1,6 +1,7 @@
 .container {
   padding: 0 2rem;
   width: 100%;
+  position: relative;
 }
 
 .main {
@@ -36,6 +37,7 @@
   
 }
 
+
 .navLi {
   display: inline;
   text-decoration: none;
@@ -53,7 +55,7 @@
 
 /* Change the link color to #111 (black) on hover */
 .navigation li a:hover {
-  background-color: #111;
+  border-bottom: 2px solid white;
 }
 
 
