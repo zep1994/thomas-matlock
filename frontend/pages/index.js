@@ -15,23 +15,14 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>
           My name is Thomas Matlock
-          <br />
-          <hr />
-          Vist my Github <a href="https://github.com/zep1994">Thomas Matlock</a>
-          <br />
-          Vist my <a href="/portfolio">Portfolio</a>
-          <br />
-          <hr />
-          CISA Certified and Full Stack Develeper
-          <hr />
-          <br />
-          thomasmatlockbba@gmail.com
         </h1>
+        <ul className={styles.navigation}>
+          <li className={styles.navLi}><a href="/portfolio">Portfolio</a></li>
+          <li className={styles.navLi}><a href="/https://github.com/zep1994">Github</a></li>
+          <li className={styles.navLi}><a href="/about">About</a></li>
+          <li className={styles.navLi}><a href="/contact">Contact</a></li>
+        </ul>
       </main>
-
-      <footer className={styles.footer}>
-    
-      </footer>
     </div>
   )
 }
