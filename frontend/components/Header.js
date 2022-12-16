@@ -41,6 +41,7 @@ const Header = () => {
         </ul>
       </div>
       <div className={styles.top}>
+      <div className={styles.shape}></div>
         <div className={styles.topLeft}>
           <h1 className={styles.primaryTitle}>CLAIRVOYANT</h1>
           <br />
