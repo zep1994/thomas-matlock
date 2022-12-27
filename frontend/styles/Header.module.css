@@ -175,7 +175,9 @@
     position: relative;
   }
 
-  .nav { width: 20rem;}
+  .nav {
+    width: 100%;
+  }
   
   .topLeft {
     width: 100%;

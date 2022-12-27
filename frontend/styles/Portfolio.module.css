@@ -60,3 +60,13 @@
   border-radius: 5px;
   height: 350px;
 }
+
+@media (max-width: 830px) {
+  .container {
+    width: 100vw;
+  }
+
+  .sites {
+    width: 100vw;
+  }
+}
