@@ -17,7 +17,6 @@
   flex-direction: column;
   flex-flow: column wrap;
   justify-content: center;
-
 }
 
 .shape {
@@ -183,7 +182,7 @@
     width: 100%;
     height: 100vh;
     float:none;
-
+    align-items: baseline;
   }
 
   .shape {
