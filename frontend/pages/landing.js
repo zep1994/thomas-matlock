@@ -25,7 +25,11 @@ const landing = () => {
                         <p>Matlock</p>
                         <p>Full</p>
                         <p>Stack</p>
-                        <p><strong>DEVELOPER</strong></p>
+                        <div className={styles.dev}>
+                            <h2>DEVELOPER</h2>
+                            <h2>DEVELOPER</h2>
+                        </div>
+                        {/* <p><strong>DEVELOPER</strong></p> */}
                     </div>
                     <svg className={styles.arrows}>
                         <path className={styles.a1} d="M0 0 L30 32 L60 0"></path>
