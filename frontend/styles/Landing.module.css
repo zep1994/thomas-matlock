@@ -2,31 +2,56 @@
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: row;
     background-color: #151320;
     height: 100vh;
     width: 100vw;
     box-sizing: border-box;
 }
 
+.content {
+    height: 100%;
+    width: 100%;
+}
+
 .contentLeft {
-    border-right: 1px solid white;
+    border-right: 40px dashed firebrick;
     height: 100%;
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    float: left;
+}
+
+.contentLeft::after {
+    content: '';
+    height: 6px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right:0;
+    display: flex;
+    flex-direction: column;
 }
 
 .contentRight {
     height: 100%;
     width: 50%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    position: relative;
 }
 
 
-.circle {
-    height: 250px;
-    width: 250px;
+.img {
+    height: 450px;
+    width: 450px;
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
@@ -36,8 +61,8 @@
     overflow: hidden;
 }
 
-.circle::before {
-    content: "RAINBOW";
+.img::before {
+    content: "MATLOCK";
     height: 150%;
     width: 150%;
     position: absolute;
@@ -51,12 +76,21 @@
         #fd004c
     );
     left: -25%;
-    top: -25%
+    top: -25%;
+    animation: spin 7.5s infinite linear;
 }
 
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
 
-.circle::after {
-    content: "MATLOCK";
+.img::after {
+    content: "";
+    background-image: url('/images/meBlack.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     background-color: #1c1b29;
     height: 93%;
@@ -74,66 +108,86 @@
 }
 
 
-
-
-
-/* 
-.circle {
-    position: relative;
-    width: 350px;
-    height: 350px;
-    background: linear-gradient(180deg,
-   rgba(255, 0, 0, 1) 0%,
-   rgba(255, 255, 0, 1) 33%,
-   rgba(0, 192, 255, 1) 66%,
-   rgba(192, 0, 255, 1) 100%);    
-   border-radius: 50%;
-    animation: animate 2s linear infinite;
+.rightInfo {
+    flex-direction: column;
 }
 
-@keyframes animate {
-    from {
-        transform: rotate(0deg);
-    } to {
-        transform: rotate(360deg);
-    }
+.rightInfo p {
+    margin: 15px;
 }
 
-.circle:after {
-    content: '';
+.rightInfo p:nth-child(1) {
+    font-size: 48px;
+    color: #fd004c;
+}
+
+.rightInfo p:nth-child(2) {
+    font-size: 68px;
+    color: #3363ff;
+}
+
+.rightInfo p:nth-child(3) {
+    font-size: 33px;
+    color: #b102b7;
+
+}
+
+.rightInfo p:nth-child(4) {
+    font-size: 28px;
+    color: #fff020;
+
+}
+.rightInfo p:nth-child(5) {
+    font-size: 108px;
+    color: #3edf4b;
+
+}
+
+.arrows {
+    width: 60px;
+    height: 72px;
     position: absolute;
-    top: 35px;
-    left: 35px;
-    bottom: 35px;
-    right: 35px;
-    border-radius: 50%;
-    background-color: black;
+    right: 5rem;
+    margin-left: -30px;
+    bottom: 4rem;
 }
-
-.circle span {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(180deg,
-    rgba(255, 0, 0, 1) 0%,
-    rgba(255, 255, 0, 1) 33%,
-    rgba(0, 192, 255, 1) 66%,
-    rgba(192, 0, 255, 1) 100%);    
-   border-radius: 50%;
     
-}
+    .arrows path {
+        stroke: #fff;
+        fill: transparent;
+        stroke-width: 1px;  
+        animation: arrow 2s infinite;
+        -webkit-animation: arrow 2s infinite; 
+    }
+    
+    @keyframes arrow
+    {
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+    }
+    
+    @-webkit-keyframes arrow /*Safari and Chrome*/
+    {
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+    }
+    
+    .arrows path.a1 {
+        animation-delay:-1s;
+        -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+    }
+    
+    .arrows path.a2 {
+        animation-delay:-0.5s;
+        -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+    }
+    
+    .arrows path.a3 { 
+        animation-delay:0s;
+        -webkit-animation-delay:0s; /* Safari 和 Chrome */
+    }
 
-.circle span:nth-child(1) {
-    backdrop-filter: blur(10px);
-}
-
-.circle span:nth-child(2) {
-    backdrop-filter: blur(10px);
-}
-
-.circle span:nth-child(3) {
-    backdrop-filter: blur(10px);
-}
-.circle span:nth-child(4) {
-    backdrop-filter: blur(10px);
-} */
