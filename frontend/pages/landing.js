@@ -11,7 +11,7 @@ const landing = () => {
                     <span>always be</span>
                     <div className={styles.message}>
                         <div className={styles.word1}>close</div>
-                        <div className={styles.word2}>undeniable</div>
+                        <div className={styles.word2}>learning</div>
                         <div className={styles.word3}>creating</div>
                     </div>
                 </h1>
