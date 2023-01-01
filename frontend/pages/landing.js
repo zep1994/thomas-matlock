@@ -4,6 +4,7 @@ import styles from '../styles/Landing.module.css'
 const landing = () => {
   return (
     <div className={styles.mainContent}>
+        {/* SECTION 1 */}
         <div className={styles.contentLeft}>
             <div className={styles.img}>
                 
