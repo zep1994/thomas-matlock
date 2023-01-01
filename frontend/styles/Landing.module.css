@@ -9,7 +9,7 @@
 }
 
 .contentLeft {
-    border-right: 1px solid white;
+    border-right: 40px dashed white;
     height: 100%;
     width: 50%;
     display: flex;
@@ -21,10 +21,15 @@
 .contentRight {
     height: 100%;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    position: relative;
 }
 
 
-.circle {
+.img {
     height: 450px;
     width: 450px;
     position: absolute;
@@ -36,7 +41,7 @@
     overflow: hidden;
 }
 
-.circle::before {
+.img::before {
     content: "MATLOCK";
     height: 150%;
     width: 150%;
@@ -57,12 +62,15 @@
 
 @keyframes spin{
     100%{
-        transform: rotate(-360deg);
+        transform: rotate(360deg);
     }
 }
 
-.circle::after {
-    content: "MATLOCK";
+.img::after {
+    content: "";
+    background-image: url('/images/meBlack.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     background-color: #1c1b29;
     height: 93%;
@@ -80,8 +88,88 @@
 }
 
 
+.rightInfo {
+    flex-direction: column;
+}
 
+.rightInfo p {
+    margin: 15px;
+}
 
+.rightInfo p:nth-child(1) {
+    font-size: 48px;
+    color: #3363ff;
+}
+
+.rightInfo p:nth-child(2) {
+    font-size: 68px;
+    color: #fd004c;
+}
+
+.rightInfo p:nth-child(3) {
+    font-size: 33px;
+    color: #b102b7;
+
+}
+
+.rightInfo p:nth-child(4) {
+    font-size: 28px;
+    color: #fff020;
+
+}
+.rightInfo p:nth-child(5) {
+    font-size: 108px;
+    color: #3edf4b;
+
+}
+
+.arrows {
+    width: 60px;
+    height: 72px;
+    position: absolute;
+    right: 5rem;
+    margin-left: -30px;
+    bottom: 4rem;
+}
+    
+    .arrows path {
+        stroke: #fff;
+        fill: transparent;
+        stroke-width: 1px;  
+        animation: arrow 2s infinite;
+        -webkit-animation: arrow 2s infinite; 
+    }
+    
+    @keyframes arrow
+    {
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+    }
+    
+    @-webkit-keyframes arrow /*Safari and Chrome*/
+    {
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+    }
+    
+    .arrows path.a1 {
+        animation-delay:-1s;
+        -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+    }
+    
+    .arrows path.a2 {
+        animation-delay:-0.5s;
+        -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+    }
+    
+    .arrows path.a3 { 
+        animation-delay:0s;
+        -webkit-animation-delay:0s; /* Safari 和 Chrome */
+    }
 
 /* 
 .circle {
