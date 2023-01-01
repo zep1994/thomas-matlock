@@ -25,8 +25,8 @@
 
 
 .circle {
-    height: 250px;
-    width: 250px;
+    height: 450px;
+    width: 450px;
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
@@ -37,7 +37,7 @@
 }
 
 .circle::before {
-    content: "RAINBOW";
+    content: "MATLOCK";
     height: 150%;
     width: 150%;
     position: absolute;
@@ -51,9 +51,15 @@
         #fd004c
     );
     left: -25%;
-    top: -25%
+    top: -25%;
+    animation: spin 7.5s infinite linear;
 }
 
+@keyframes spin{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
 
 .circle::after {
     content: "MATLOCK";
