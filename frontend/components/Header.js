@@ -4,7 +4,7 @@ import styles from "../styles/Header.module.css";
 const Header = () => {
   return (
     <div className={styles.header}>
-      <div className={styles.nav}>
+      {/* <div className={styles.nav}>
         <ul className={styles.navUl}>
           <div className={styles.menuUl}>
             <div className={styles.navPrimaryHeader}>
@@ -50,7 +50,7 @@ const Header = () => {
         <div className={styles.topRight}>
           <img src='/images/tags.png' alt='Coding Tags' className={styles.codingImg} />
         </div>
-        </div>
+        </div> */}
     </div>
   );
 };
