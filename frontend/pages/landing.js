@@ -119,7 +119,22 @@ const landing = () => {
                 {/* SECTION 3 */}
                 <div className={styles.section3}>
                     <div className={styles.content3}>
-
+                        <div className={styles.left3}>
+                            <div className={styles.jsBox}>
+                                <p>I love JavaScript</p>
+                            </div>
+                            <div className={styles.dbBox}>
+                                <p>I love JavaScript</p>
+                            </div>
+                            <div className={styles.hexagon}></div>
+                        </div>
+                        <div className={styles.right3}>
+                            <div className={styles.triangle}></div>
+                            <div className={styles.analyticBox}>
+                                <p>I love JavaScript</p>
+                            </div>
+                            <div className={styles.chevron}></div>
+                        </div>
                     </div>
                 </div>
             </div>

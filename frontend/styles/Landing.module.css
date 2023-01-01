@@ -625,3 +625,129 @@
         background-position: 25% 20%;
         transition: background 0.3s;
     }
+
+/* SECTION 3 */
+.section3 {
+    width: 100%;
+    height: 100%;
+    background-color: #151320;
+}
+
+.left3 {
+    width: 50%;
+    float: left;
+    height: 100%;
+    position: relative;
+}
+
+.right3 {
+    width: 50%;
+    float: right;
+    height: 100%;
+    position: relative;
+}
+
+.jsBox {
+    width: 400px;
+    height: 400px;
+    background-color: #34D6C5;
+    color: white;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+}
+
+.analyticBox {
+    width: 600px;
+    height: 300px;
+    background-color: #03a9f4;
+    color: white;
+    margin: auto;
+    position: relative;
+    top: 15rem;
+    left: -8rem;
+}
+
+.dbBox {
+    width: 350px;
+    height: 300px;
+    background-color: #6fc8f1;
+    color: white;
+    margin: auto;
+    position: relative;
+    top: 15rem;
+    left: -8rem;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red; 
+    position: relative;
+    top: 5rem;
+    left: -5rem;
+  }
+
+  .chevron {
+    position: relative;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 6px;
+    height: 60px;
+    width: 200px;
+    top: 25rem;
+    right: -25rem;
+  }
+  .chevron:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 51%;
+    background: #b102b7;
+    transform: skew(0deg, 6deg);
+  }
+  .chevron:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background: #b102b7;
+    transform: skew(0deg, -6deg);
+  }
+
+  .hexagon {
+    width: 100px;
+    height: 57.735px;
+    background: red;
+    position: relative;
+    left: 35rem;
+  }
+  .hexagon::before {
+    content: "";
+    position: absolute;
+    top: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 28.8675px solid red;
+  }
+.hexagon::after {
+    content: "";
+    position: absolute;
+    bottom: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 28.8675px solid red;
+  }
+    
