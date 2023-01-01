@@ -137,6 +137,18 @@ const landing = () => {
                         </div>
                     </div>
                 </div>
+                {/* SECTION 4 */}
+                <div className={styles.section4}>
+                    <div className={styles.contactInfo}>
+                        <h1 className={styles.contactHeader}>CONTACT ME</h1>
+                        <ul>
+                            <li>Name: Thomas Matlock</li>
+                            <li>Email: thomasmatlockbba@gmail.com</li>
+                            <li>Please reach out if you would like to learn anything more about me or perhaps colaborate together. </li>
+                            <li><a href="/thomas-matlock-resume.docx" download><i><u>DOWNLOAD RESUME HERE</u></i></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     );
