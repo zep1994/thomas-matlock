@@ -810,7 +810,7 @@
 /* SECTION 4 */
 
 .section4 {
-height: 30%;
+height: 40%;
 width: 100%;
 position: relative;
 background-color: #1c1b29;
@@ -849,6 +849,10 @@ margin: 0;
 
   .section3 {
     height: 1000px;
+  }
+
+  .section3 p {
+    padding: 2px;
   }
 
 }
