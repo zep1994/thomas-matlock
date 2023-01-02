@@ -68,51 +68,123 @@ export default function Home() {
               <span className={styles.spanHeader}>own</span>
             </h1>
             <div className={styles.cardsSection}>
-              <div className={`${styles.card} ${styles.darth}`}>
-                <div className={`${styles.face} ${styles.front}`}>
-                  <h2>
-                    <small>Web</small>
-                    <br />
-                    Development
-                  </h2>
-                </div>
-                <div className={`${styles.face} ${styles.back}`}>
-                  <div className={styles.description}>hello</div>
-                </div>
-              </div>
-              <div className={`${styles.card} ${styles.darth}`}>
-                <div className={`${styles.face} ${styles.front}`}>
-                  <h2>
-                    <small>Analytics</small>
-                    <br />& Data Mining
-                  </h2>
-                </div>
-                <div className={`${styles.face} ${styles.back}`}>
-                  <div className={styles.description}>hello</div>
-                </div>
-              </div>
-              <div className={`${styles.card} ${styles.darth}`}>
-                <div className={`${styles.face} ${styles.front}`}>
-                  <h2>
-                    <small>Database</small>
-                    <br />
-                    Administration
-                  </h2>
-                </div>
-                <div className={`${styles.face} ${styles.back}`}>
-                  <div className={styles.description}>helloo</div>
+              <div className={styles.card}>
+                <div className={styles.card__inner}>
+                  <div
+                    className={`${styles.card__face} ${styles.card__face_front}`}
+                  >
+                    <h2>Data Analytics</h2>
+                  </div>
+                  <div
+                    className={`${styles.card__face} ${styles.card__face_back}`}
+                  >
+                    <div className={styles.card__content}>
+                      <div className={styles.card__header}>
+                        <img
+                          src="/images/images.jpg"
+                          alt=""
+                          className={styles.pp}
+                        />
+                        <h2>DATA ANALYTICS</h2>
+                      </div>
+                      <div className={styles.card__body}>
+                        <h3>Python & Data Science</h3>
+                        <p>
+                          After I passed ISACA's CISA exam and became certified, I have been fascinated by Analytics and how to comb through data for very specific information.
+                          I have gained experience using Python and ACL to automate data analytics and create processes that run and analyze data on their own. 
+                        </p>
+                      </div>     
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className={`${styles.card} ${styles.darth}`}>
-                <div className={`${styles.face} ${styles.front}`}>
-                  <h2>
-                    <small>User Interface</small>
-                    <br />
-                    RESTFUL APIs
-                  </h2>
+              <div className={styles.card}>
+                <div className={styles.card__inner}>
+                  <div
+                    className={`${styles.card__face} ${styles.card__face_front}`}
+                  >
+                    <h2>Web Development</h2>
+                  </div>
+                  <div
+                    className={`${styles.card__face} ${styles.card__face_back}`}
+                  >
+                    <div className={styles.card__content}>
+                      <div className={styles.card__header}>
+                        <img
+                          src="/images/dev.jpg"
+                          alt=""
+                          className={styles.pp}
+                        />
+                        <h2>FULL STACK DEVELOPMENT</h2>
+                      </div>
+                      <div className={styles.card__body}>
+                        <h3>Front-end & Back-end</h3>
+                        <p>
+                          I have 4 years of software development experience, most of which is using Javascript with Python or Ruby. Building web applications is a passion of mine
+                          and I will continue to press forward in my development journey.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className={`${styles.face} ${styles.back}`}>
-                  <div className={styles.description}></div>
+              </div>
+              <div className={styles.card}>
+                <div className={styles.card__inner}>
+                  <div
+                    className={`${styles.card__face} ${styles.card__face_front}`}
+                  >
+                    <h2>Database Administration</h2>
+                  </div>
+                  <div
+                    className={`${styles.card__face} ${styles.card__face_back}`}
+                  >
+                    <div className={styles.card__content}>
+                      <div className={styles.card__header}>
+                        <img
+                          src="/images/db.jpg"
+                          alt=""
+                          className={styles.pp}
+                        />
+                        <h2>Database Management Systems</h2>
+                      </div>
+                      <div className={styles.card__body}>
+                        <h3>SQL & NoSQL</h3>
+                        <p>
+                          With my career leading me down a path of software development and data science combined, 
+                          I have had to become well-adept at getting data from databases.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.card}>
+                <div className={styles.card__inner}>
+                  <div
+                    className={`${styles.card__face} ${styles.card__face_front}`}
+                  >
+                    <h2>Restful APIs</h2>
+                  </div>
+                  <div
+                    className={`${styles.card__face} ${styles.card__face_back}`}
+                  >
+                    <div className={styles.card__content}>
+                      <div className={styles.card__header}>
+                        <img
+                          src="/images/api.jpg"
+                          alt=""
+                          className={styles.pp}
+                        />
+                        <h2>Application Programming Interface</h2>
+                      </div>
+                      <div className={styles.card__body}>
+                        <h3>Tech Talks</h3>
+                        <p>
+                          Thank you for coming to my Tech Talk. I am an api, ready to provide you with the information you need to make the right decisions!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -124,29 +196,32 @@ export default function Home() {
                 <div className={styles.jsBox}>
                   <p>
                     Highly-analytical Full Stack Developer proficient with a
-                    range of programming languages and tools. Collaborative
-                    team player with exceptional technical skills and four years
-                    of expertise in the field. Expert at deciphering and
-                    resolving intricate problems with a focused and analytical
-                    approach. 
+                    range of programming languages and tools. Collaborative team
+                    player with exceptional technical skills and four years of
+                    expertise in the field. Expert at deciphering and resolving
+                    intricate problems with a focused and analytical approach.
                   </p>
                 </div>
                 <div className={styles.dbBox}>
-                  <p>I have passed my CISA exam and have worked in audit with duties such as querying databases, running shell scripts with 
-                    Windows Task Scheduer and manually triggering.  </p>
+                  <p>
+                    I have passed my CISA exam and have worked in audit with
+                    duties such as querying databases, running shell scripts
+                    with Windows Task Scheduer and manually triggering.{" "}
+                  </p>
                 </div>
                 <div className={styles.hexagon}></div>
               </div>
               <div className={styles.right3}>
                 <div className={styles.triangle}></div>
                 <div className={styles.analyticBox}>
-                  <p>Committed to meeting rigorous development goals
-                    under tight deadlines while creating impeccable code. Adept
-                    at developing solid, practical, and user-friendly
-                    applications that fulfill client and employer demands.
-                    Proficiency in both the backend and front end of software
-                    development. Hands-on with JavaScript while thriving in data
-                    analytics.</p>
+                  <p>
+                    Committed to meeting rigorous development goals under tight
+                    deadlines while creating impeccable code. Adept at
+                    developing solid, practical, and user-friendly applications
+                    that fulfill client and employer demands. Proficiency in
+                    both the backend and front end of software development.
+                    Hands-on with JavaScript while thriving in data analytics.
+                  </p>
                 </div>
                 <div className={styles.chevron}></div>
               </div>
