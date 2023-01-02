@@ -122,17 +122,31 @@ export default function Home() {
             <div className={styles.content3}>
               <div className={styles.left3}>
                 <div className={styles.jsBox}>
-                  <p>I love JavaScript</p>
+                  <p>
+                    Highly-analytical Full Stack Developer proficient with a
+                    range of programming languages and tools. Collaborative
+                    team player with exceptional technical skills and four years
+                    of expertise in the field. Expert at deciphering and
+                    resolving intricate problems with a focused and analytical
+                    approach. 
+                  </p>
                 </div>
                 <div className={styles.dbBox}>
-                  <p>I love JavaScript</p>
+                  <p>I have passed my CISA exam and have worked in audit with duties such as querying databases, running shell scripts with 
+                    Windows Task Scheduer and manually triggering.  </p>
                 </div>
                 <div className={styles.hexagon}></div>
               </div>
               <div className={styles.right3}>
                 <div className={styles.triangle}></div>
                 <div className={styles.analyticBox}>
-                  <p>I love JavaScript</p>
+                  <p>Committed to meeting rigorous development goals
+                    under tight deadlines while creating impeccable code. Adept
+                    at developing solid, practical, and user-friendly
+                    applications that fulfill client and employer demands.
+                    Proficiency in both the backend and front end of software
+                    development. Hands-on with JavaScript while thriving in data
+                    analytics.</p>
                 </div>
                 <div className={styles.chevron}></div>
               </div>
