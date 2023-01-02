@@ -582,7 +582,7 @@
   }
   .card h2 {
       text-transform: uppercase;
-      font-size: 28px;
+      font-size: 18px;
       position: absolute;
       bottom: 70px;
       margin: 0;
@@ -590,7 +590,7 @@
       padding: 10px;
   }
   .card h2 small {
-      font-size: 42px;
+      font-size: 24px;
   }
   .card cite {
       position: absolute;
@@ -772,4 +772,29 @@ position: relative;
 
 .contactHeader {
 margin: 0;
+}
+
+@media (max-width: 1550px) {
+  .img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .cardsSection {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    flex-wrap: wrap;
+    position: relative;
+
+  }
+
+  .section2 {
+    height: 1600px;
+  }
+
+  .section3 {
+    height: 1000px;
+  }
+
 }
