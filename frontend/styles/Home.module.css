@@ -387,6 +387,60 @@
   height: 10px;
 }
 
+.section2:after {
+  background: linear-gradient(to right, 
+  #fd004c,
+  #fe9000,
+  #fff020,
+  #3edf4b,
+  #3363ff,
+  #b102b7,
+  #fd004c
+  );
+  content: "";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 10px;
+}
+
+.section3:after {
+  background: linear-gradient(to right, 
+  #fd004c,
+  #fe9000,
+  #fff020,
+  #3edf4b,
+  #3363ff,
+  #b102b7,
+  #fd004c
+  );
+  content: "";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 10px;
+}
+
+.section4:after {
+  background: linear-gradient(to right, 
+  #fd004c,
+  #fe9000,
+  #fff020,
+  #3edf4b,
+  #3363ff,
+  #b102b7,
+  #fd004c
+  );
+  content: "";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 10px;
+}
+
 .section2 {
   width: 100%;
   height: 100%;
