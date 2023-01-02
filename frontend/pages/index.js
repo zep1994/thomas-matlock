@@ -259,17 +259,6 @@ export default function Home() {
                 </motion.div>
                 <div className={styles.chevron}></div>
               </div>
-              <div className={styles.lights}>
-                <div className={`${styles.light} ${styles.x1}`}></div>
-                <div className={`${styles.light} ${styles.x2}`}></div>
-                <div className={`${styles.light} ${styles.x3}`}></div>
-                <div className={`${styles.light} ${styles.x4}`}></div>
-                <div className={`${styles.light} ${styles.x5}`}></div>
-                <div className={`${styles.light} ${styles.x6}`}></div>
-                <div className={`${styles.light} ${styles.x7}`}></div>
-                <div className={`${styles.light} ${styles.x8}`}></div>
-                <div className={`${styles.light} ${styles.x9}`}></div>
-              </div>
             </div>
           </div>
           {/* SECTION 4 */}
