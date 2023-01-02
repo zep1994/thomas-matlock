@@ -2,8 +2,24 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
+import { useEffect } from "react";
+import { useAnimation, motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 export default function Home() {
+
+  const squareVariants = {
+    visible: { opacity: 1, scale: 1, transition: { duration: 1 } },
+    hidden: { opacity: 0, scale: 0 }
+  };
+  const controls = useAnimation();
+  const [ref, inView] = useInView();
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    }
+  }, [controls, inView]);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -33,10 +49,11 @@ export default function Home() {
               </svg>
             </div>
             <div className={styles.contentRight}>
+              <h1 className={styles.date}>2023</h1>
               <div className={styles.rightInfo}>
                 <p>Thomas</p>
-                <p>Matlock</p>
-                <p>Full</p>
+                <p><strong>Matlock</strong></p>
+                <p><strong>Full</strong></p>
                 <p>Stack</p>
                 <div className={styles.dev}>
                   <h2>DEVELOPER</h2>
@@ -171,8 +188,7 @@ export default function Home() {
                     <div className={styles.card__content}>
                       <div className={styles.card__header}>
                         <img
-                          src="/images/api.jpg"
-                          alt=""
+                          src="/images/api.jpg" q
                           className={styles.pp}
                         />
                         <h2>Application Programming Interface</h2>
@@ -193,7 +209,13 @@ export default function Home() {
           <div className={styles.section3}>
             <div className={styles.content3}>
               <div className={styles.left3}>
-                <div className={styles.jsBox}>
+                <motion.div 
+                  ref={ref}
+                  className={styles.jsBox}
+                  animate={controls}
+                  initial="hidden"
+                  variants={squareVariants}
+                >
                   <p>
                     Highly-analytical Full Stack Developer proficient with a
                     range of programming languages and tools. Collaborative team
@@ -201,19 +223,31 @@ export default function Home() {
                     expertise in the field. Expert at deciphering and resolving
                     intricate problems with a focused and analytical approach.
                   </p>
-                </div>
-                <div className={styles.dbBox}>
+                </motion.div>
+                <motion.div 
+                className={styles.dbBox}
+                ref={ref}
+                animate={controls}
+                initial="hidden"
+                variants={squareVariants}
+                >
                   <p>
                     I have passed my CISA exam and have worked in audit with
                     duties such as querying databases, running shell scripts
                     with Windows Task Scheduer and manually triggering.{" "}
                   </p>
-                </div>
+                </motion.div>
                 <div className={styles.hexagon}></div>
               </div>
               <div className={styles.right3}>
                 <div className={styles.triangle}></div>
-                <div className={styles.analyticBox}>
+                <motion.div 
+                className={styles.analyticBox}
+                ref={ref}
+                animate={controls}
+                initial="hidden"
+                variants={squareVariants}
+                >
                   <p>
                     Committed to meeting rigorous development goals under tight
                     deadlines while creating impeccable code. Adept at
@@ -222,8 +256,19 @@ export default function Home() {
                     both the backend and front end of software development.
                     Hands-on with JavaScript while thriving in data analytics.
                   </p>
-                </div>
+                </motion.div>
                 <div className={styles.chevron}></div>
+              </div>
+              <div className={styles.lights}>
+                <div className={`${styles.light} ${styles.x1}`}></div>
+                <div className={`${styles.light} ${styles.x2}`}></div>
+                <div className={`${styles.light} ${styles.x3}`}></div>
+                <div className={`${styles.light} ${styles.x4}`}></div>
+                <div className={`${styles.light} ${styles.x5}`}></div>
+                <div className={`${styles.light} ${styles.x6}`}></div>
+                <div className={`${styles.light} ${styles.x7}`}></div>
+                <div className={`${styles.light} ${styles.x8}`}></div>
+                <div className={`${styles.light} ${styles.x9}`}></div>
               </div>
             </div>
           </div>
