@@ -5,6 +5,8 @@ import Header from "../components/Header";
 import { useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import ThemeToggle from '../components/ToggleTheme'
+
 
 export default function Home() {
 
@@ -83,6 +85,12 @@ export default function Home() {
               <span className={styles.spanHeader}>on</span>
               <span className={styles.spanHeader}>your</span>
               <span className={styles.spanHeader}>own</span>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className={styles.hoverMe}>HOVER FOR MORE</span>
             </h1>
             <div className={styles.cardsSection}>
               <div className={styles.card}>
@@ -282,7 +290,7 @@ export default function Home() {
               </ul>
             </div>
           </div>
-        </div>
+        </div> 
       </div>
     </div>
   );
