@@ -941,7 +941,7 @@
   height: 57.735px;
   background: red;
   position: relative;
-  left: 35rem;
+  left: 55rem;
 }
 .hexagon::before {
   content: "";
