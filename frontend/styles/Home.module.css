@@ -489,3 +489,44 @@
   font-size: 18px;
   line-height: 1;
 }
+
+
+/* SECTION 5 */
+.section5 {
+  position: relative;
+  background-color: #0A192F;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  min-height: 400px;
+  max-height: 1800px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; 
+  text-align: center;
+}
+
+.contactInfo ul li {
+  list-style-type: none;
+}
+
+.content5 {
+  width: 1000px;
+  height: 400px;
+  margin: auto;
+}
+
+
+.txtHeads3 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  
+}
+
+.txtHeads3 p {
+  color: #60F7D3;
+}
