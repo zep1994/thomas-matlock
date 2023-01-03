@@ -45,18 +45,20 @@ export default function Home() {
           <div className={styles.socialLinks}>
             <ul className={styles.socialUl}>
               <li><a href="https://github.com/zep1994"><img src="/images/github2.png" alt="" /></a></li>
-              <li><a href="https://github.com/zep1994"><img src="/images/linkedin2.png" alt="" /></a></li>
-              <li><a href="https://github.com/zep1994"><img src="/images/twitter2.png" alt="" /></a></li>
-              <li><a href="https://github.com/zep1994"><img src="/images/insta2.png" alt="" /></a></li>
-              <li><a href="https://github.com/zep1994"><img src="/images/gmail2.png" alt="" /></a></li>
+              <li><a href="https://www.linkedin.com/in/twmatlock/"><img src="/images/linkedin2.png" alt="" /></a></li>
+              <li><a href="https://twitter.com/_ThomasMatlock"><img src="/images/twitter2.png" alt="" /></a></li>
+              <li><a href="https://www.instagram.com/_thomasmatlock/"><img src="/images/insta2.png" alt="" /></a></li>
+              <li><a  href="mailto:thomasmatlockbba@gmail.com"><img src="/images/gmail2.png" alt="" /></a></li>
 
             </ul>
           </div>
           {/* NAVIGATION */}
           <div className={styles.navigation}>
             <div className={styles.logoTran}>
-              <img src="/images/logo.png" className={styles.logo} alt="logo" />
-              <p className={styles.name}>homas</p>
+              <a href="/">
+                <img src="/images/logo.png" className={styles.logo} alt="logo" />
+                <p className={styles.name}>homas</p>
+              </a>
             </div>
             <ul className={styles.navLinks}>
               <li>
