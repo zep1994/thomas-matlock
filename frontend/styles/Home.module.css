@@ -214,8 +214,8 @@
   position: absolute;
   right: -100px;
   padding: 0;
-  top: 5rem;
-  font-size: 208px;
+  top: 3rem;
+  font-size: 188px;
   margin-bottom: 0;
 }
 
@@ -943,7 +943,7 @@ margin: 0;
 
   .dev h2 {
     font-size: 4rem;
-    left: -11rem;
+    left: -13rem;
   }
 
   .date {
@@ -959,6 +959,7 @@ margin: 0;
 
   .contentRight {
     width: auto;
+    height: 800px;
   }
 
   .img {
@@ -967,5 +968,9 @@ margin: 0;
 
   .arrows {
     display: none;
+  }
+
+  .section2 {
+    height: 2000px;
   }
 }
