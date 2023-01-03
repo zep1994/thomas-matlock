@@ -67,6 +67,35 @@
   font-family: 'Source Code Pro', monospace;
 }
 
+.socialLinks {
+  position: fixed;
+  bottom: 0;
+  height: 350px;
+  left: 4rem;
+  width: 35px;
+  z-index: 1000;
+  color: white
+}
+
+.socialUl {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 30px;
+
+}
+
+.socialUl li { 
+  margin-top: 1.5rem;
+}
+
+
+
+.socialUl li img {
+  height: 35px;
+  width: 35px;
+}
+
 /* SECTION 1 */
 .section1 {
   height: 100%;

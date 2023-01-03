@@ -42,6 +42,16 @@ export default function Home() {
 
       <div className={styles.mainContent}>
         <div className={styles.content}>
+          <div className={styles.socialLinks}>
+            <ul className={styles.socialUl}>
+              <li><a href="https://github.com/zep1994"><img src="/images/github2.png" alt="" /></a></li>
+              <li><a href="https://github.com/zep1994"><img src="/images/linkedin2.png" alt="" /></a></li>
+              <li><a href="https://github.com/zep1994"><img src="/images/twitter2.png" alt="" /></a></li>
+              <li><a href="https://github.com/zep1994"><img src="/images/insta2.png" alt="" /></a></li>
+              <li><a href="https://github.com/zep1994"><img src="/images/gmail2.png" alt="" /></a></li>
+
+            </ul>
+          </div>
           {/* NAVIGATION */}
           <div className={styles.navigation}>
             <div className={styles.logoTran}>
@@ -146,7 +156,7 @@ export default function Home() {
                       <li className={styles.coLi} onClick={()=>displayDropdown(1)}>Liquid Creative</li>
                       <li className={styles.coLi} onClick={()=>displayDropdown(2)}>C Spire</li>
                       <li className={styles.coLi} onClick={()=>displayDropdown(3)}>Ergon, Inc.</li>
-                      <li className={styles.coLi} onClick={()=>displayDropdown(4)}>MThree</li>
+                      <li className={styles.coLi} onClick={()=>displayDropdown(4)}>MThree</li>  
                     </ul>
                   </div>
 
