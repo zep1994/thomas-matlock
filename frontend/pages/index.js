@@ -95,7 +95,7 @@ export default function Home() {
                     <br />
                     <br />
                     Taking what I learned from Data Science and my knowledge of
-                    code, I ahave been applying this information to a copmputer
+                    code, I have been applying this information to a copmputer
                     vision camera. I will be able to expand on the reports that
                     I can create with such a functioning prototype. I am using
                     Python with a postgres database and will be using nextjs for
