@@ -18,7 +18,17 @@ const home = () => {
         </div>
 
         {/* SECTION 1 */}
-        <div className={styles.section1}></div>
+        <div className={styles.section1}>
+            <div className={styles.introContent}>
+                <p className={styles.hi}>Hi, my name is </p>
+                <h1 className={styles.introHeader}>Thomas Matlock.</h1>
+                <h1 className={styles.secondaryHeader}>DESIGNER. DEVELOPER. INNOVATOR.</h1>
+                <p className={styles.description}>Highly-analytical Full Stack Developer proficient with a range of programming languages and tools. 
+                Collaborative team player with exceptional technical skills and four years of expertise in the field. 
+                Expert at deciphering and resolving intricate problems with a focused and analytical approach.</p>
+                <button type='button' className={styles.btn}>CHECK OUT MY RESUME</button>
+            </div>
+        </div>
     </div>
   )
 }
