@@ -501,7 +501,7 @@
 }
 
 .card__body p {
-  color: var(--dark);
+  color: white;
   font-size: 18px;
   line-height: 1;
 }
