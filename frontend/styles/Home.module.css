@@ -108,6 +108,7 @@
 
 .description {
   width: 400px;
+  color: #8892B0;
 }
 
 .btn {
@@ -144,7 +145,7 @@
 }
 
 .about {
-  color: white;
+  color: #CCD6F6  ;
 
 }
 
@@ -160,9 +161,19 @@
   color: #8892B0;
 }
 
+.coTitle {
+  color: #CCD6F6;
+}
+
+.coDates {
+  color: #8892B0;
+}
+
 .txtBox p {
   margin: 5px;
   font-size: 1.5rem;
+  color: #CCD6F6;
+
 }
 
 .txtHeads {
@@ -253,7 +264,6 @@
   height: 600px;
   margin: auto;
 }
-
 .coList {
   width: 150px;
   height: 600px;
@@ -274,6 +284,12 @@
 .coTitle a {
   color: #60F7D3;
 }
+
+.coExp li{
+  color: #8892B0;
+}
+
+
 
 .coList ul li  {
   margin-top: 2rem;
