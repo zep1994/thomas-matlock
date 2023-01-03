@@ -14,7 +14,7 @@ export default function Home() {
 
   function displayDropdown(id) {
     if (id == drop) {
-      setDrop(0)
+      setDrop(1)
     } else {
       setDrop(id)
     }
@@ -50,19 +50,19 @@ export default function Home() {
             </div>
             <ul className={styles.navLinks}>
               <li>
-                <i className={styles.locator}>.01</i>About
+                <i className={styles.locator}>.01</i><a href="#about">About</a> 
               </li>
               <li>
-                <i className={styles.locator}>.02</i>Experience
+                <i className={styles.locator}>.02</i><a href="#exp">Experience</a>
               </li>
               <li>
-                <i className={styles.locator}>.03</i>Work
+                <i className={styles.locator}>.03</i><a href="#work">Work</a>
               </li>
               <li>
-                <i className={styles.locator}>.04</i>Contact
+                <i className={styles.locator}>.04</i><a href="#contact">Contact</a>
               </li>
               <li>
-                <button>RESUME</button>
+                <button><a href="thomas-matlock-resume.pdf" target="_blank">RESUME</a></button>
               </li>
             </ul>
           </div>
@@ -83,13 +83,13 @@ export default function Home() {
                 problems with a focused and analytical approach.
               </p>
               <button type="button" className={styles.btn}>
-                CHECK OUT MY RESUME
+                <a href="thomas-matlock-resume.pdf" target="_blank">CHECK OUT MY RESUME</a>
               </button>
             </div>
           </div>
 
           {/* SECTION 2 */}
-          <div className={styles.section2}>
+          <div id="about" className={styles.section2}>
             <div className={styles.content2}>
               <div className={styles.info2}>
                 <div className={styles.txtBox}>
@@ -131,7 +131,7 @@ export default function Home() {
           </div>
 
           {/* SECTION 3 */}
-          <div className={styles.section3}>
+          <div id="experience" className={styles.section3}>
             <div className={styles.content3}>
               <div className={styles.info3}>
 

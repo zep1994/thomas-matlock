@@ -280,6 +280,16 @@
   list-style-type: none;
 }
 
+.coList ul:hover {
+  border-left: 5px solid #60F7D3;
+  filter: blur(5%);
+}
+
+.coList ul li:hover {
+  background-color: #14315c;
+  color: white;
+}
+
 .txtHeads2 {
   display: flex;
   flex-direction: row;
