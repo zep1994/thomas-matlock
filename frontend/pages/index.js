@@ -44,11 +44,11 @@ export default function Home() {
         <div className={styles.content}>
           <div className={styles.socialLinks}>
             <ul className={styles.socialUl}>
-              <li><a href="https://github.com/zep1994"><img src="/images/github2.png" alt="" /></a></li>
-              <li><a href="https://www.linkedin.com/in/twmatlock/"><img src="/images/linkedin2.png" alt="" /></a></li>
-              <li><a href="https://twitter.com/_ThomasMatlock"><img src="/images/twitter2.png" alt="" /></a></li>
-              <li><a href="https://www.instagram.com/_thomasmatlock/"><img src="/images/insta2.png" alt="" /></a></li>
-              <li><a  href="mailto:thomasmatlockbba@gmail.com"><img src="/images/gmail2.png" alt="" /></a></li>
+              <li><a target="_blank" href="https://github.com/zep1994"><img src="/images/github2.png" alt="" /></a></li>
+              <li><a target="_blank" href="https://www.linkedin.com/in/twmatlock/"><img src="/images/linkedin2.png" alt="" /></a></li>
+              <li><a target="_blank" href="https://twitter.com/_ThomasMatlock"><img src="/images/twitter2.png" alt="" /></a></li>
+              <li><a target="_blank" href="https://www.instagram.com/_thomasmatlock/"><img src="/images/insta2.png" alt="" /></a></li>
+              <li><a target="_blank" href="mailto:thomasmatlockbba@gmail.com"><img src="/images/gmail2.png" alt="" /></a></li>
 
             </ul>
           </div>
