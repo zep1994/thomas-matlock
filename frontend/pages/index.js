@@ -141,7 +141,6 @@ export default function Home() {
                 </div>
 
                 <div className={styles.workDrawer}>
-
                   <div className={styles.coList}>
                     <ul className={styles.coUl}>
                       <li className={styles.coLi} onClick={()=>displayDropdown(1)}>Liquid Creative</li>
@@ -182,7 +181,6 @@ export default function Home() {
                       </div>
                     </>
                   )}
-
                   {drop == 3 && (
                     <>
                       <div className={styles.coItem}>
@@ -208,8 +206,6 @@ export default function Home() {
                       </div>
                     </>
                   )}
-
-
                   {drop == 4 && (
                     <>
                       <div className={styles.coItem}>
@@ -223,14 +219,149 @@ export default function Home() {
                       </div>
                     </>
                   )}
-                    
                   </div>
-
                 </div>    
 
               </div>
             </div>
           </div>
+
+          {/* SECTION 4 */}
+          <div id="work" className={styles.section4}>
+            <div className={styles.content4}>
+              <div className={styles.info4}>
+
+
+              <div className={styles.txtHeads2}>
+                <p className={styles.sec1}>03.</p>
+                <p className={styles.about}>Areas of Expertise</p>
+              </div>
+
+              <div className={styles.cardsSection}>
+              <div className={styles.card}>
+                <div className={styles.card__inner}>
+                  <div
+                    className={`${styles.card__face} ${styles.card__face_front}`}
+                  >
+                    <h2>Data Analytics</h2>
+                  </div>
+                  <div
+                    className={`${styles.card__face} ${styles.card__face_back}`}
+                  >
+                    <div className={styles.card__content}>
+                      <div className={styles.card__header}>
+                        <img
+                          src="/images/images.jpg"
+                          alt=""
+                          className={styles.pp}
+                        />
+                        <h2>DATA ANALYTICS</h2>
+                      </div>
+                      <div className={styles.card__body}>
+                        <h3>Python & Data Science</h3>
+                        <p>
+                          After I passed ISACA's CISA exam and became certified, I have been fascinated by Analytics and how to comb through data for very specific information.
+                          I have gained experience using Python and ACL to automate data analytics and create processes that run and analyze data on their own. 
+                        </p>
+                      </div>     
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.card}>
+                <div className={styles.card__inner}>
+                  <div
+                    className={`${styles.card__face} ${styles.card__face_front}`}
+                  >
+                    <h2>Web Development</h2>
+                  </div>
+                  <div
+                    className={`${styles.card__face} ${styles.card__face_back}`}
+                  >
+                    <div className={styles.card__content}>
+                      <div className={styles.card__header}>
+                        <img
+                          src="/images/dev.jpg"
+                          alt=""
+                          className={styles.pp}
+                        />
+                        <h2>FULL STACK DEVELOPMENT</h2>
+                      </div>
+                      <div className={styles.card__body}>
+                        <h3>Front-end & Back-end</h3>
+                        <p>
+                          I have 4 years of software development experience, most of which is using Javascript with Python or Ruby. Building web applications is a passion of mine
+                          and I will continue to press forward in my development journey.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.card}>
+                <div className={styles.card__inner}>
+                  <div
+                    className={`${styles.card__face} ${styles.card__face_front}`}
+                  >
+                    <h2>Database Administration</h2>
+                  </div>
+                  <div
+                    className={`${styles.card__face} ${styles.card__face_back}`}
+                  >
+                    <div className={styles.card__content}>
+                      <div className={styles.card__header}>
+                        <img
+                          src="/images/db.jpg"
+                          alt=""
+                          className={styles.pp}
+                        />
+                        <h2>Database Management Systems</h2>
+                      </div>
+                      <div className={styles.card__body}>
+                        <h3>SQL & NoSQL</h3>
+                        <p>
+                          With my career leading me down a path of software development and data science combined, 
+                          I have had to become well-adept at getting data from databases.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.card}>
+                <div className={styles.card__inner}>
+                  <div
+                    className={`${styles.card__face} ${styles.card__face_front}`}
+                  >
+                    <h2>Restful APIs</h2>
+                  </div>
+                  <div
+                    className={`${styles.card__face} ${styles.card__face_back}`}
+                  >
+                    <div className={styles.card__content}>
+                      <div className={styles.card__header}>
+                        <img
+                          src="/images/api.jpg" q
+                          className={styles.pp}
+                        />
+                        <h2>Application Programming Interface</h2>
+                      </div>
+                      <div className={styles.card__body}>
+                        <h3>Tech Talks</h3>
+                        <p>
+                          Thank you for coming to my Tech Talk. I am an api, ready to provide you with the information you need to make the right decisions!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+              </div>
+            </div>
+          </div>
+          
 
         </div>
       </div>
