@@ -248,10 +248,14 @@ export default function Home() {
               </div>
 
                 <div className={styles.workList}>
-                  <img className={styles.projectImg} src="/images/gameup.png" alt="" />
+                  <div className={styles.imgGradient}>
+                    <div className={styles.projectImg}>
+
+                    </div>
+                  </div>
                   <div className={styles.project1}>
                     <span className={styles.feat}>Featured Project</span>
-                      <h3 className={styles.name}>Game Up</h3>
+                      <h3 className={styles.proName}>Game Up</h3>
                       <p className={styles.description}>One of my first project where I learned Node whiles I was at Flatiron. This was a project I did
                       on the side. We were learning Rails, but I could not help but learn some Node. Little did I know at the time, I was forming a deep bond
                       with Javascript. I have come learn so much about it since i started.
@@ -262,6 +266,9 @@ export default function Home() {
                       <li className={styles.listItem}>EJS</li>
                       <li className={styles.listItem}>Bash</li>
                     </ul>
+                    
+                    <button><a href="https://github.com/zep1994/Version_01_GameUp" target="_blank">Learn More</a></button>
+
                   </div>
                 </div>
       

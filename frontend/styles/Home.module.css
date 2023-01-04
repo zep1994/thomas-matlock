@@ -610,35 +610,51 @@
 .stackUl {
   display: flex;
   flex-direction: row;
+  float: right;
+}
+
+.description {
+  width: 400px;
+}
+
+.project1 button {
+  height: 45px;
+  width: 100px;
+  border: 2px solid #60F7D3;
+  background-color: #0A192F;
+  border-radius: 15px;
+  color: #60F7D3;
 }
 
 .stackUl li {
-  margin-right: 1.5rem;
+  margin-left: 1.5rem;
 
+}
+
+.project1 {
+  text-align: right;
 }
 
 .projectImg {
   height: 300px;
-  width: 300px;
+  width: 500px;
   margin-top: auto;
   margin-bottom: auto;
-  background: rgba(0,255,255, 0.5);
+  margin-right: 3rem;
+  background-image: linear-gradient(to bottom, #60f7d4a6, #60f7d4cc), url(/images/gameup.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  margin-right: 5rem;
-  mix-blend-mode: screen;
+  background-size: contain;
+  }
+
+
+
+.projectImg:hover::after {
+  background-image: linear-gradient(to bottom, #60f7d40f, #60f7d405), url(/images/gameup.png);
+  transition: opacity 4s ease;
 }
 
-.projectImg:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0,255,255, 0.5);
-  transition: all .3s linear;
+.feat {
+  color: #60F7D3;
 }
 
 .workList {
