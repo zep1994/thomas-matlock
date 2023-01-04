@@ -78,6 +78,10 @@
   color: white
 }
 
+@media (max-width: 830px) {
+  
+}
+
 .socialUl {
   list-style-type: none;
   margin: 0;
@@ -253,9 +257,18 @@
   transition: 1s ease linear;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 1150px) {
   .info2 {
     flex-direction: column;
+  }
+
+  .descript {
+    width: 100%;
+  }
+
+  .socialLinks {
+    right: 1rem;
+    left: initial;
   }
 
   .aboutImg {
@@ -351,7 +364,6 @@
   height: 100%;
   width: 100%;
   min-height: 1800px;
-  max-height: 1800px;
   justify-content: space-between;
 
 }
@@ -366,11 +378,9 @@
 .cardsSection {
   position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  top: 5rem; 
-  width: 1000px;
-  margin: auto;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
   flex-wrap: wrap;
 }
 
@@ -557,7 +567,8 @@
 }
 
 .content5 {
-  width: 1000px;
+  width: 80%;
+  text-align: center;
   height: 400px;
   margin: auto;
 }
@@ -575,4 +586,88 @@
 
 .txtHeads3 p {
   color: #60F7D3;
+}
+
+
+/* SECTION 6 */
+.section6 {
+  position: relative;
+  background-color: #0A192F;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  min-height: 900px;
+  max-height: 1800px;
+}
+
+.content6 {
+  width: 1000px;
+  height: 900px;
+  margin: auto;
+}
+
+.stackUl {
+  display: flex;
+  flex-direction: row;
+}
+
+.stackUl li {
+  margin-right: 1.5rem;
+
+}
+
+.projectImg {
+  height: 300px;
+  width: 300px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: rgba(0,255,255, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 5rem;
+  mix-blend-mode: screen;
+}
+
+.projectImg:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,255,255, 0.5);
+  transition: all .3s linear;
+}
+
+.workList {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  margin: auto;
+}
+
+.contactInfo {
+  width: 95%;
+  margin: auto;
+}
+
+@media (max-width: 830px) {
+  .cardsSection {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .card {
+    width: 350px;
+  }
+
+  .section4 {
+    height: 3000px;
+  }
+
+  .content4 {
+    height: 1500px;
+  }
 }
