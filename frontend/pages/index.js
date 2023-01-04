@@ -46,7 +46,6 @@ export default function Home() {
             <ul className={styles.socialUl}>
               <li><a target="_blank" href="https://github.com/zep1994"><img src="/images/github2.png" alt="" /></a></li>
               <li><a target="_blank" href="https://www.linkedin.com/in/twmatlock/"><img src="/images/linkedin2.png" alt="" /></a></li>
-              <li><a target="_blank" href="https://twitter.com/_ThomasMatlock"><img src="/images/twitter2.png" alt="" /></a></li>
               <li><a target="_blank" href="https://www.instagram.com/_thomasmatlock/"><img src="/images/insta2.png" alt="" /></a></li>
               <li><a target="_blank" href="mailto:thomasmatlockbba@gmail.com"><img src="/images/gmail2.png" alt="" /></a></li>
 
@@ -238,6 +237,38 @@ export default function Home() {
             </div>
           </div>
 
+          {/* SECTION 6 */}
+          <div className={styles.section6}>
+            <div className={styles.content6}>
+              <div className={styles.info6}>
+
+              <div className={styles.txtHeads2}>
+                <p className={styles.sec1}>04.</p>
+                <p className={styles.about}>Things I've Built</p>
+              </div>
+
+                <div className={styles.workList}>
+                  <img className={styles.projectImg} src="/images/gameup.png" alt="" />
+                  <div className={styles.project1}>
+                    <span className={styles.feat}>Featured Project</span>
+                      <h3 className={styles.name}>Game Up</h3>
+                      <p className={styles.description}>One of my first project where I learned Node whiles I was at Flatiron. This was a project I did
+                      on the side. We were learning Rails, but I could not help but learn some Node. Little did I know at the time, I was forming a deep bond
+                      with Javascript. I have come learn so much about it since i started.
+                      </p>
+                      <ul className={styles.stackUl}>
+                      <li className={styles.listItem}>Vs Code</li>
+                      <li className={styles.listItem}>Node.js</li>
+                      <li className={styles.listItem}>EJS</li>
+                      <li className={styles.listItem}>Bash</li>
+                    </ul>
+                  </div>
+                </div>
+      
+              </div>
+            </div>
+          </div>
+ 
           {/* SECTION 4 */}
           <div id="work" className={styles.section4}>
             <div className={styles.content4}>
@@ -394,7 +425,7 @@ export default function Home() {
                     <li>thomasmatlockbba@gmail.com</li>
                     <li>
                       Please reach out if you would like to learn anything more
-                      about me or perhaps colaborate together.{" "}
+                      about me  <br />or perhaps colaborate together.{" "}
                     </li>
                     <li>
                       <a href="/thomas-matlock-resume.docx" download>
