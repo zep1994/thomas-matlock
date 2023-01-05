@@ -64,7 +64,7 @@ export default function Home() {
                 <i className={styles.locator}>.01</i><a href="#about">About</a> 
               </li>
               <li>
-                <i className={styles.locator}>.02</i><a href="#exp">Experience</a>
+                <i className={styles.locator}>.02</i><a href="#experience">Experience</a>
               </li>
               <li>
                 <i className={styles.locator}>.03</i><a href="#work">Work</a>
