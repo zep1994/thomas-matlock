@@ -37,7 +37,7 @@ export default function Home() {
       <Head>
         <title>Thomas Matlock</title>
         <meta name="description" content="Thomas Matlocks Personal Site" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/logo.png" />
       </Head>
 
       <div className={styles.mainContent}>
