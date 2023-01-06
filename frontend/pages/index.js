@@ -451,12 +451,7 @@ export default function Home() {
                       <span className={styles.feat}>Featured Project</span>
                       <h3 className={styles.proName}>Internal Audit App</h3>
                       <p className={styles.description}>
-                        One of my first project where I learned Node whiles I
-                        was at Flatiron. This was a project I did on the side.
-                        We were learning Rails, but I could not help but learn
-                        some Node. Little did I know at the time, I was forming
-                        a deep bond with Javascript. I have come learn so much
-                        about it since i started.
+                        This project is built with workflow and memory in mind. This stores information in a meaningful way that allows the user the to run custom analytics on the files that are saved within thie dataase.
                       </p>
                       <ul className={styles.stackUl}>
                         <li className={styles.listItem}>Vs Code</li>
