@@ -597,7 +597,7 @@
   flex-direction: row;
   height: 100%;
   width: 100%;
-  min-height: 900px;
+  min-height: 1400px;
   max-height: 1800px;
 }
 
@@ -611,6 +611,12 @@
   display: flex;
   flex-direction: row;
   float: right;
+}
+
+.stackUl2 {
+  display: flex;
+  flex-direction: row;
+  float: left;
 }
 
 .description {
@@ -627,13 +633,91 @@
 }
 
 .stackUl li {
-  margin-left: 1.5rem;
+  margin-left: 1rem;
 
 }
 
 .project1 {
-  text-align: right;
+  text-align: left`;
+  float: left; 
+  display: flex;
+  flex-direction: row;
 }
+
+.project2 button {
+  height: 45px;
+  width: 100px;
+  border: 2px solid #60F7D3;
+  background-color: #0A192F;
+  border-radius: 15px;
+  color: #60F7D3;
+}
+
+.project2 {
+  text-align: right;
+  float: left; 
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+}
+
+
+.projectImg2 {
+  height: 300px;
+  width: 500px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 3rem;
+  background-image: linear-gradient(to bottom, #60f7d4a6, #60f7d4cc), url(/images/blockchain.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  }
+
+
+
+.projectImg2:hover::after {
+  background-image: linear-gradient(to bottom, #60f7d40f, #60f7d405), url(/images/blockchain.png);
+  transition: opacity 4s ease;
+}
+
+
+.project3 button {
+  height: 45px;
+  width: 100px;
+  border: 2px solid #60F7D3;
+  background-color: #0A192F;
+  border-radius: 15px;
+  color: #60F7D3;
+}
+
+.project3 {
+  text-align: right;
+  float: left; 
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+}
+
+
+.projectImg3 {
+  height: 300px;
+  width: 500px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 3rem;
+  background-image: linear-gradient(to bottom, #60f7d4a6, #60f7d4cc), url(/images/blockchain.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  }
+
+
+
+.projectImg3:hover::after {
+  background-image: linear-gradient(to bottom, #60f7d40f, #60f7d405), url(/images/blockchain.png);
+  transition: opacity 4s ease;
+}
+
+
 
 .projectImg {
   height: 300px;
@@ -653,13 +737,15 @@
   transition: opacity 4s ease;
 }
 
+
+
 .feat {
   color: #60F7D3;
 }
 
 .workList {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 800px;
   margin: auto;
 }
