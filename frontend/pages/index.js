@@ -36,6 +36,7 @@ export default function Home() {
         <title>Thomas Matlock</title>
         <meta name="description" content="Thomas Matlocks Personal Site" />
         <link rel="icon" href="/images/logo.png" />
+        <link rel="icon" href="/images/logo.png" />
       </Head>
 
       <div className={styles.mainContent}>
@@ -88,8 +89,7 @@ export default function Home() {
                 <a href="#about">About</a>
               </li>
               <li>
-                <i className={styles.locator}>.02</i>
-                <a href="#exp">Experience</a>
+                <i className={styles.locator}>.02</i><a href="#exp">Experience</a>
               </li>
               <li>
                 <i className={styles.locator}>.03</i>
