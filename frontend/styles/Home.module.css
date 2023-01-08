@@ -633,12 +633,16 @@
 }
 
 .stackUl li {
-  margin-left: 1rem;
+  margin-left: 1.25rem;
+}
+
+.stackUl2 li {
+  margin-right: 1.3rem;
 
 }
 
 .project1 {
-  text-align: left`;
+  text-align: left;
   float: left; 
   display: flex;
   flex-direction: row;
@@ -705,7 +709,7 @@
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 3rem;
-  background-image: linear-gradient(to bottom, #60f7d4a6, #60f7d4cc), url(/images/blockchain.png);
+  background-image: linear-gradient(to bottom, #60f7d4a6, #60f7d4cc), url(/images/audit.png);
   background-repeat: no-repeat;
   background-size: contain;
   }
@@ -713,7 +717,7 @@
 
 
 .projectImg3:hover::after {
-  background-image: linear-gradient(to bottom, #60f7d40f, #60f7d405), url(/images/blockchain.png);
+  background-image: linear-gradient(to bottom, #60f7d40f, #60f7d405), url(/images/audit.png);
   transition: opacity 4s ease;
 }
 
