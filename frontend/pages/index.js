@@ -397,7 +397,7 @@ export default function Home() {
                         about it since i started.
                       </p>
                       <ul className={styles.stackUl}>
-                        <li className={styles.listItem}>Vs Code</li>
+                        <li className={styles.listItem}>VsCode</li>
                         <li className={styles.listItem}>Node.js</li>
                         <li className={styles.listItem}>EJS</li>
                         <li className={styles.listItem}>Bash</li>
@@ -423,7 +423,7 @@ export default function Home() {
                         database.
                       </p>
                       <ul className={styles.stackUl2}>
-                        <li className={styles.listItem}>Vs Code</li>
+                        <li className={styles.listItem}>VsCode</li>
                         <li className={styles.listItem}>React</li>
                         <li className={styles.listItem}>Node.js</li>
                         <li className={styles.listItem}>NoSQL</li>
@@ -453,8 +453,8 @@ export default function Home() {
                       <p className={styles.description}>
                         This project is built with workflow and memory in mind. This stores information in a meaningful way that allows the user the to run custom analytics on the files that are saved within thie dataase.
                       </p>
-                      <ul className={styles.stackUl}>
-                        <li className={styles.listItem}>Vs Code</li>
+                      <ul className={styles.stackUl2}>
+                        <li className={styles.listItem}>VsCode</li>
                         <li className={styles.listItem}>Node.js</li>
                         <li className={styles.listItem}>JQuery</li>
                         <li className={styles.listItem}>EJS</li>
