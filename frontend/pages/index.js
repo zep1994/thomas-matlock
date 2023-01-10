@@ -175,7 +175,7 @@ export default function Home() {
           </div>
 
           {/* SECTION 3 */}
-          <div id="experience" className={styles.section3}>
+          <div id="exp" className={styles.section3}>
             <div className={styles.content3}>
               <div className={styles.info3}>
                 <div className={styles.txtHeads2}>
