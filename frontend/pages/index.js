@@ -137,17 +137,18 @@ export default function Home() {
                   <br />
                   <p className={styles.descript}>
                     Hello! My name is Thomas and I enjoy innovation and
-                    creativity. I love building and it has lead me down a very
+                    creativity. I love building and it has led me down a very
                     interesting path. I am a passionate Javascript developer,
                     but I also have a background in Data Analytics and Big Data.
                     <br />
                     <br />
                     Taking what I learned from Data Science and my knowledge of
                     code, I have been applying this information to a copmputer
-                    vision camera. I will be able to expand on the reports that
-                    I can create with such a functioning prototype. I am using
-                    Python with a postgres database and will be using nextjs for
-                    a client facing tool. Here are a few technologies I’ve been
+                    vision camera. I believe my skills can add value as a modern day
+                    full-stack developer (still trying to figure out that modern day part ;)
+                    My automated reporting has saved time and money and I would like to bring my skills
+                    to a company for years to come. Please reach out if you are interested in working together.
+                    I am using Next.js, Node, and Python with a Postgres database. Here are a few technologies I’ve been
                     working with recently:
                   </p>
                   <ul>
