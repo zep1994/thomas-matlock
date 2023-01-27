@@ -57,14 +57,6 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a
-                  target="_blank"
-                  href="https://www.instagram.com/_thomasmatlock/"
-                >
-                  <img src="/images/insta2.png" alt="" />
-                </a>
-              </li>
-              <li>
                 <a target="_blank" href="mailto:thomasmatlockbba@gmail.com">
                   <img src="/images/gmail2.png" alt="" />
                 </a>
