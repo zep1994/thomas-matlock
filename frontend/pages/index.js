@@ -416,15 +416,13 @@ export default function Home() {
                   <div className={styles.project2}>
                     <div className={styles.pro2Info}>
                       <span className={styles.feat}>Featured Project</span>
-                      <h3 className={styles.proName}>HR BlockChain Application</h3>
+                      <h3 className={styles.proName}>Full Stack Node Application</h3>
                       <p className={styles.description}>
-                        This application showed me the power of coding and how blockchain is not just cryptocurrency, but it is sercurity and proof of mind. 
-                        At least from a ledger perspective it is. I utilized React and Node to build this application for the front end and backend with MongoDB as the
-                        database.
+                        This application goes deep into how node works, I cover authentication, api development, frontend templating and much more.
+                        I really go into depth with this project. I plan to cover everything. Follow this application for the most recent updates, (https://github.com/zep1994/Node_Project_2023)
                       </p>
                       <ul className={styles.stackUl2}>
                         <li className={styles.listItem}>VsCode</li>
-                        <li className={styles.listItem}>React</li>
                         <li className={styles.listItem}>Node.js</li>
                         <li className={styles.listItem}>NoSQL</li>
                         <li className={styles.listItem}>Bash</li>
