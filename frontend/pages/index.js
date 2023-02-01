@@ -93,7 +93,7 @@ export default function Home() {
               </li>
               <li>
                 <button>
-                  <a href="thomas-matlock-resume.pdf" target="_blank">
+                  <a href="Thomas Matlock Resume.pdf" target="_blank">
                     RESUME
                   </a>
                 </button>
@@ -117,7 +117,7 @@ export default function Home() {
                 problems with a focused and analytical approach.
               </p>
               <button type="button" className={styles.btn}>
-                <a href="thomas-matlock-resume.pdf" target="_blank">
+                <a href="Thomas Matlock Resume.pdf.pdf" target="_blank">
                   CHECK OUT MY RESUME
                 </a>
               </button>
@@ -632,7 +632,7 @@ export default function Home() {
                       or perhaps colaborate together.{" "}
                     </li>
                     <li>
-                      <a href="/thomas-matlock-resume.docx" download>
+                      <a href="/Thomas Matlock Resume.pdf" download>
                         <i>
                           <u>DOWNLOAD RESUME HERE</u>
                         </i>
