@@ -117,7 +117,7 @@ export default function Home() {
                 problems with a focused and analytical approach.
               </p>
               <button type="button" className={styles.btn}>
-                <a href="Thomas Matlock Resume 2023.pdf.pdf" target="_blank">
+                <a href="Thomas Matlock Resume 2023.pdf" target="_blank">
                   CHECK OUT MY RESUME
                 </a>
               </button>
