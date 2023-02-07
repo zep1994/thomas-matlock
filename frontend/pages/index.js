@@ -219,7 +219,7 @@ export default function Home() {
                               @Liquid Creative
                             </a>
                           </h3>
-                          <p className={styles.coDates}>10/22 - 12/22</p>
+                          <p className={styles.coDates}>2022 - 2023</p>
                           <ul className={styles.coExp}>
                             <li>
                               Hosted and maintained more than fifty websites,
@@ -251,7 +251,7 @@ export default function Home() {
                               @C Spire
                             </a>
                           </h3>
-                          <p className={styles.coDates}>07/22 - 10/22</p>
+                          <p className={styles.coDates}>2022 - 2022</p>
                           <ul className={styles.coExp}>
                             <li>
                               Tracked data Constantly and meticulously to ensure
@@ -285,7 +285,7 @@ export default function Home() {
                               @Ergon, Inc.
                             </a>
                           </h3>
-                          <p className={styles.coDates}>04/21 - 07/22</p>
+                          <p className={styles.coDates}>2021 - 2022</p>
                           <ul className={styles.coExp}>
                             <li>
                               Fostered enduring connections between audit and
@@ -310,7 +310,7 @@ export default function Home() {
                               @Ergon, Inc.
                             </a>
                           </h3>
-                          <p className={styles.coDates}>01/20 - 04/21</p>
+                          <p className={styles.coDates}>2020 - 2021</p>
                           <ul className={styles.coExp}>
                             <li>
                               Developed genuine, long-lasting connections that
@@ -340,7 +340,7 @@ export default function Home() {
                               @MThree
                             </a>
                           </h3>
-                          <p className={styles.coDates}>04/19 - 12/19</p>
+                          <p className={styles.coDates}>2019 - 2019</p>
                           <ul className={styles.coExp}>
                             <li>
                               Mentored Bash/Shell Scripting to create the
