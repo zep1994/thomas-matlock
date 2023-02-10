@@ -51,7 +51,7 @@ export default function Home() {
               <li>
                 <a
                   target="_blank"
-                  href="https://www.linkedin.com/in/twmatlock/"
+                  href="https://www.linkedin.com/in/twmatlockcisa/"
                 >
                   <img src="/images/linkedin2.png" alt="" />
                 </a>
