@@ -1,57 +1,38 @@
-# thomas-matlock
-Personal Website
-# Project Title
+Thomas Matlock Website
+This is a personal website project for Thomas Matlock, built using HTML, CSS, and JavaScript.
 
-Simple overview of use/purpose.
+Table of Contents
+Overview
+Technologies Used
+Features
+Usage
+Contributing
+License
+Overview
+This website is a personal project of Thomas Matlock to showcase his skills, experience, and projects. The website has several pages, including a homepage, an "About Me" page, a "Projects" page, and a "Contact" page. Each page is designed to provide information about Thomas and his work in a visually appealing way.
 
-## Description
+Technologies Used
+This project was built using the following technologies:
 
-An in-depth paragraph about your project and overview of use.
+HTML
+CSS
+JavaScript
+Features
+The Thomas Matlock website includes the following features:
 
-## Getting Started
+Responsive design: The website is designed to be responsive and looks good on desktop and mobile devices.
+Animated elements: The website includes several animated elements, such as a sliding navigation menu and a scrolling effect on the homepage.
+Contact form: The website includes a contact form that allows users to send a message directly to Thomas Matlock.
+Usage
+To view the website, simply open the index.html file in your web browser. The website is designed to be self-explanatory and easy to navigate.
 
-### Dependencies
+Contributing
+This project is a personal project of Thomas Matlock and is not currently open to contributions. However, if you have any feedback or suggestions, you can contact Thomas using the contact form on the website.
 
-* Written with Nextjs and will need npm and node installed
-* ex. Windows 10
+License
+This project is licensed under the MIT License. See the LICENSE file for more information.
 
-### Installing
 
-* git clone
-* npm install
-* npm start
 
-### Executing program
 
-* npm start
-```
-code blocks for commands
-```
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-Thomas Matlock
-thomasmatlockbba@gmail.com
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
