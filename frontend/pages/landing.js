@@ -59,7 +59,6 @@ export default function Home() {
                 <p>Stack</p>
                 <div className={styles.dev}>
                   <h2>DEVELOPER</h2>
-                  <h2>DEVELOPER</h2>
                 </div>
                 {/* <p><strong>DEVELOPER</strong></p> */}
               </div>
@@ -281,7 +280,7 @@ export default function Home() {
                   about me or perhaps colaborate together.{" "}
                 </li>
                 <li>
-                  <a href="/thomas-matlock-resume.docx" download>
+                  <a href="/Thomas Matlock Resume.pdf" download>
                     <i>
                       <u>DOWNLOAD RESUME HERE</u>
                     </i>

@@ -36,7 +36,6 @@ export default function Home() {
         <title>Thomas Matlock</title>
         <meta name="description" content="Thomas Matlocks Personal Site" />
         <link rel="icon" href="/images/logo.png" />
-        <link rel="icon" href="/images/logo.png" />
       </Head>
 
       <div className={styles.mainContent}>
@@ -93,7 +92,7 @@ export default function Home() {
               </li>
               <li>
                 <button>
-                  <a href="Thomas Matlock Resume 2023.pdf" target="_blank">
+                  <a href="Thomas Matlock Resume.pdf" target="_blank">
                     RESUME
                   </a>
                 </button>
@@ -107,14 +106,13 @@ export default function Home() {
               <p className={styles.hi}>Hi, my name is </p>
               <h1 className={styles.introHeader}>Thomas Matlock.</h1>
               <h1 className={styles.secondaryHeader}>
-                DESIGNER. DEVELOPER. INNOVATOR.
+              FULL STACK DEVELOPER | CLOUD SOLUTIONS ARCHITECT
               </h1>
               <p className={styles.description}>
-                Highly-analytical Full Stack Developer proficient with a range
-                of programming languages and tools. Collaborative team player
-                with exceptional technical skills and four years of expertise in
-                the field. Expert at deciphering and resolving intricate
-                problems with a focused and analytical approach.
+              Experienced Full Stack Developer with expertise in .NET, Blazor, Angular, and Azure. 
+              Passionate about optimizing system performance, implementing CI/CD pipelines, 
+              and architecting scalable cloud solutions. Dedicated to continuous learning, 
+              driving innovation, and delivering high-impact technical solutions.
               </p>
               <button type="button" className={styles.btn}>
                 <a href="Thomas Matlock Resume 2023.pdf" target="_blank">
@@ -136,28 +134,26 @@ export default function Home() {
                   <br />
                   <br />
                   <p className={styles.descript}>
-                    Hello! My name is Thomas and I enjoy innovation and
-                    creativity. I love building and it has led me down a very
-                    interesting path. I am a passionate Javascript developer,
-                    but I also have a background in Data Analytics and Big Data.
+                  Hello! My name is Thomas Matlock, and I am a highly skilled Full Stack Developer with expertise in
+                   .NET, Blazor, Angular, and Azure. I am passionate about innovation and creativity, always seeking 
+                   opportunities to optimize system performance, implement CI/CD pipelines, and architect scalable cloud solutions. 
+                   My background spans software development, data analytics, and enterprise application architecture, enabling me to 
+                   build efficient, high-impact solutions.
                     <br />
                     <br />
-                    Taking what I learned from Data Science and my knowledge of
-                    code, I have been applying this information to a copmputer
-                    vision camera. I believe my skills can add value as a modern day
-                    full-stack developer (still trying to figure out that modern day part ;)
-                    My automated reporting has saved time and money and I would like to bring my skills
-                    to a company for years to come. Please reach out if you are interested in working together.
-                    I am using Next.js, Node, and Python with a Postgres database. Here are a few technologies I’ve been
-                    working with recently:
+                    Leveraging my expertise in software development and data analytics, I have built and optimized applications
+                    that improve business operations and streamline workflows. My ability to design and implement automated reporting 
+                    solutions has saved significant time and resources, enhancing efficiency across teams. I am passionate about 
+                    building scalable, high-performance applications and would love to bring my skills to a forward-thinking company. 
+                    Please reach out if you’re interested in collaborating. I am currently working with technologies such as:
                   </p>
                   <ul>
+                    <li>.NET (ASP.NET Core, Blazor)</li>
                     <li>JavaScript (ES6+)</li>
-                    <li>Next.js</li>
-                    <li>MongoDB</li>
-                    <li>Node.js</li>
-                    <li>WordPress</li>
-                    <li>postgresql</li>
+                    <li>Azure</li>
+                    <li>C#</li>
+                    <li>API Development</li>
+                    <li>PostgreSQL</li>
                   </ul>
                 </div>
                 <div className={styles.aboutImg}>
@@ -183,13 +179,13 @@ export default function Home() {
                         className={styles.coLi}
                         onClick={() => displayDropdown(1)}
                       >
-                        Liquid Creative
+                        Tyler Technologies
                       </li>
                       <li
                         className={styles.coLi}
                         onClick={() => displayDropdown(2)}
                       >
-                        C Spire
+                        Liquid Creative
                       </li>
                       <li
                         className={styles.coLi}
@@ -210,7 +206,58 @@ export default function Home() {
                     {drop == 1 && (
                       <>
                         <div className={styles.coItem}>
-                          <h3 className={styles.coTitle}>
+                        <h3 className={styles.coTitle}>
+                          .NET Full Stack Developer{" "}
+                          <a target="_blank" href="https://www.tylertechnologies.com">
+                              @Tyler Technologies
+                          </a>
+                            </h3>
+                            <p className={styles.coDates}>2023 - 2025</p>
+                            <ul className={styles.coExp}>
+                                <li>
+                                    Developed and optimized full-stack applications using ASP.NET Core, C#, and Blazor, enhancing system performance by 30%.
+                                </li>
+                                <li>
+                                    Designed and implemented RESTful APIs with ASP.NET Core and GraphQL, improving data retrieval efficiency and front-end integrations.
+                                </li>
+                                <li>
+                                    Led Azure DevOps CI/CD pipeline implementation, reducing deployment time by 40% through automation with YAML pipelines, Docker, and Kubernetes.
+                                </li>
+                                <li>
+                                    Optimized SQL Server performance, improving query execution times by 25% via indexing and stored procedures.
+                                </li>
+                                <li>
+                                    Enhanced system security by implementing OAuth2 and JWT authentication, ensuring user access control and compliance.
+                                </li>
+                                <li>
+                                    Developed and maintained cloud-based solutions leveraging Azure Functions, Logic Apps, and App Services, increasing system scalability and fault tolerance.
+                                </li>
+                                <li>
+                                    Automated infrastructure provisioning using Terraform/Bicep, reducing manual setup times and enhancing deployment reliability.
+                                </li>
+                                <li>
+                                    Developed microservices-based architectures, breaking down monolithic applications into scalable, modular services using .NET and Docker.
+                                </li>
+                                <li>
+                                    Refactored legacy codebases, improving maintainability, reducing technical debt, and ensuring better performance with SOLID principles and Clean Architecture.
+                                </li>
+                                <li>
+                                    Designed and implemented automated testing strategies using Selenium, xUnit, and NUnit, reducing post-deployment bugs by 30% and improving release stability.
+                                </li>
+                                <li>
+                                    Integrated third-party APIs to streamline payment processing, user authentication, and external data services, enhancing application functionality.
+                                </li>
+                                <li>
+                                    Collaborated with cross-functional teams in Agile/Scrum environments, participating in sprint planning, code reviews, and backlog refinement to ensure high-quality deliverables.
+                                </li>
+                            </ul>
+                        </div>
+                      </>
+                    )}
+                    {drop == 2 && (
+                      <>
+                        <div className={styles.coItem}>
+                        <h3 className={styles.coTitle}>
                             Systems Manager / Full Stack Developer{" "}
                             <a
                               target="_blank"
@@ -222,55 +269,22 @@ export default function Home() {
                           <p className={styles.coDates}>2022 - 2023</p>
                           <ul className={styles.coExp}>
                             <li>
-                              Hosted and maintained more than fifty websites,
-                              using a full stack of web technologies
+                                Managed and maintained hosting for over 50 websites, ensuring optimal performance, security, and uptime.
                             </li>
                             <li>
-                              Constructed two additional sites in a single month
-                              to get the department's wait times back to a
-                              reasonable level.
+                                Led the development and deployment of two client websites in a single month, significantly reducing project backlog and improving customer satisfaction.
                             </li>
                             <li>
-                              Completed a month-long crash course on NextJS and
-                              Strapi, Apache, and continued Laravel work.
+                                Gained expertise in modern web development frameworks, including Next.js, Strapi, and Laravel, enhancing the scalability and maintainability of client projects.
                             </li>
                             <li>
-                              Lowered customer wait times by 50 % while managing
-                              just one employee.
-                            </li>
-                          </ul>
-                        </div>
-                      </>
-                    )}
-                    {drop == 2 && (
-                      <>
-                        <div className={styles.coItem}>
-                          <h3 className={styles.coTitle}>
-                            Systems Auditor{" "}
-                            <a target="_blank" href="https://www.cspire.com">
-                              @C Spire
-                            </a>
-                          </h3>
-                          <p className={styles.coDates}>2022 - 2022</p>
-                          <ul className={styles.coExp}>
-                            <li>
-                              Tracked data Constantly and meticulously to ensure
-                              the highest degree of precision in response to the
-                              need. Performed risk analysis and used discretion
-                              to identify system vulnerabilities and provide
-                              solutions. Built previously hand-coded problems
-                              using Windows Task Scheduler, Python, and ACL in
-                              conjunction with SQL queries. Advised developers
-                              on problems with databases, performance, and other
-                              issues. Documented testing procedures for
-                              developers and future testing use. Recommended
-                              changes and corrections to developers for optimal
-                              software performance and usability.
+                                Optimized server infrastructure and automated deployment processes, reducing manual intervention and improving system reliability.
                             </li>
                             <li>
-                              Utilized ACL to provide continuous monitoring for
-                              Agile Auditing, saving countless hours of
-                              programming work.
+                                Provided end-to-end client support, including onboarding, technical assistance, and training, ensuring seamless website management and functionality.
+                            </li>
+                            <li>
+                                Implemented process improvements that streamlined client support workflows, reducing resolution times and improving feedback loops.
                             </li>
                           </ul>
                         </div>
@@ -279,50 +293,53 @@ export default function Home() {
                     {drop == 3 && (
                       <>
                         <div className={styles.coItem}>
-                          <h3 className={styles.coTitle}>
+                        <h3 className={styles.coTitle}>
                             IT Internal Auditor{" "}
                             <a target="_blank" href="https://ergon.com/">
-                              @Ergon, Inc.
+                                @Ergon, Inc.
                             </a>
-                          </h3>
-                          <p className={styles.coDates}>2021 - 2022</p>
+                        </h3>
+                        <p className={styles.coDates}>2021 - 2022</p>
                           <ul className={styles.coExp}>
                             <li>
-                              Fostered enduring connections between audit and
-                              other divisions and external businesses. Designed,
-                              implemented, and maintained audit software to
-                              examine millions of journal entries. Created new
-                              financial system theft controls based on risk.{" "}
+                                Designed, implemented, and maintained an automated audit system that analyzed millions of journal entries, improving financial oversight and compliance.
                             </li>
                             <li>
-                              Saved hundreds of dollars every quarter by
-                              assessing risks and instituting constant
-                              monitoring. .
+                                Developed exception reporting processes that identified financial risks, duplicate payments, and vendor inconsistencies, saving the company thousands in potential losses.
+                            </li>
+                            <li>
+                                Created real-time monitoring systems using SQL and Python, significantly enhancing the company's ability to detect and prevent fraudulent activity.
+                            </li>
+                            <li>
+                                Automated risk assessment reports, reducing manual auditing time and improving the efficiency of internal control reviews.
                             </li>
                           </ul>
                         </div>
                         <br />
                         <br />
                         <div className={styles.coItem}>
-                          <h3 className={styles.coTitle}>
+                        <h3 className={styles.coTitle}>
                             Application Developer{" "}
                             <a target="_blank" href="https://ergon.com/">
-                              @Ergon, Inc.
+                                @Ergon, Inc.
                             </a>
-                          </h3>
-                          <p className={styles.coDates}>2020 - 2021</p>
+                        </h3>
+                        <p className={styles.coDates}>2020 - 2021</p>
                           <ul className={styles.coExp}>
                             <li>
-                              Developed genuine, long-lasting connections that
-                              boosted confidence across teams. Identified
-                              patterns in the data and devised a system that
-                              cuts preparation time by days. Successfully
-                              mastered new software and took on the role of
-                              system administrator.
+                                Developed and maintained custom enterprise applications that streamlined operations, improving efficiency across multiple departments.
                             </li>
                             <li>
-                              Redesigned legacy software to drastically cut down
-                              on support requests..
+                                Built a job and task tracking system that optimized resource allocation and reduced project delays.
+                            </li>
+                            <li>
+                                Automated data entry and reporting workflows using SQL and Python, reducing processing times by 50%.
+                            </li>
+                            <li>
+                                Modernized legacy applications, significantly improving performance and reducing ongoing support requests.
+                            </li>
+                            <li>
+                                Acted as a system administrator, providing technical support, troubleshooting critical issues, and implementing security enhancements.
                             </li>
                           </ul>
                         </div>
@@ -461,9 +478,7 @@ export default function Home() {
                       </button>
                     </div>
                   </div>  
-
                 </div>
-
               </div>
             </div>
           </div>
@@ -480,128 +495,92 @@ export default function Home() {
                 <div className={styles.cardsSection}>
                   <div className={styles.card}>
                     <div className={styles.card__inner}>
-                      <div
-                        className={`${styles.card__face} ${styles.card__face_front}`}
-                      >
-                        <h2>Data Analytics</h2>
+                      <div className={`${styles.card__face} ${styles.card__face_front}`}>
+                        <h2>Cloud & DevOps</h2>
                       </div>
-                      <div
-                        className={`${styles.card__face} ${styles.card__face_back}`}
-                      >
+                      <div className={`${styles.card__face} ${styles.card__face_back}`}>
                         <div className={styles.card__content}>
                           <div className={styles.card__header}>
-                            <img
-                              src="/images/images.jpg"
-                              alt=""
-                              className={styles.pp}
-                            />
-                            <h2>DATA ANALYTICS</h2>
+                            <img src="/images/dev.jpg" alt="" className={styles.pp} />
+                            <h2>CLOUD & DEVOPS</h2>
                           </div>
                           <div className={styles.card__body}>
-                            <h3>Python & Data Science</h3>
+                            <h3>Azure & CI/CD</h3>
                             <p>
-                              After I passed ISACA's CISA exam and became
-                              certified, I have been fascinated by Analytics and
-                              how to comb through data for very specific
-                              information. I have gained experience using Python
-                              and ACL to automate data analytics and create
-                              processes that run and analyze data on their own.
+                              Experienced in cloud computing and infrastructure automation using Azure, Terraform, 
+                              Kubernetes, and Docker. Proficient in setting up CI/CD pipelines with Azure DevOps 
+                              and GitHub Actions to enhance deployment efficiency.
                             </p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
+
                   <div className={styles.card}>
                     <div className={styles.card__inner}>
-                      <div
-                        className={`${styles.card__face} ${styles.card__face_front}`}
-                      >
-                        <h2>Web Development</h2>
+                      <div className={`${styles.card__face} ${styles.card__face_front}`}>
+                        <h2>Full Stack Development</h2>
                       </div>
-                      <div
-                        className={`${styles.card__face} ${styles.card__face_back}`}
-                      >
+                      <div className={`${styles.card__face} ${styles.card__face_back}`}>
                         <div className={styles.card__content}>
                           <div className={styles.card__header}>
-                            <img
-                              src="/images/dev.jpg"
-                              alt=""
-                              className={styles.pp}
-                            />
+                            <img src="/images/db.jpg" alt="" className={styles.pp} />
                             <h2>FULL STACK DEVELOPMENT</h2>
                           </div>
                           <div className={styles.card__body}>
-                            <h3>Front-end & Back-end</h3>
+                            <h3>.NET & JavaScript</h3>
                             <p>
-                              I have 4 years of software development experience,
-                              most of which is using Javascript with Python or
-                              Ruby. Building web applications is a passion of
-                              mine and I will continue to press forward in my
-                              development journey.
+                              Skilled in building scalable applications with ASP.NET Core, Blazor, Angular, 
+                              and Next.js. Experienced in developing RESTful APIs and microservices 
+                              architectures for modern web applications.
                             </p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
+
                   <div className={styles.card}>
                     <div className={styles.card__inner}>
-                      <div
-                        className={`${styles.card__face} ${styles.card__face_front}`}
-                      >
-                        <h2>Database Administration</h2>
+                      <div className={`${styles.card__face} ${styles.card__face_front}`}>
+                        <h2>Database Management</h2>
                       </div>
-                      <div
-                        className={`${styles.card__face} ${styles.card__face_back}`}
-                      >
+                      <div className={`${styles.card__face} ${styles.card__face_back}`}>
                         <div className={styles.card__content}>
                           <div className={styles.card__header}>
-                            <img
-                              src="/images/db.jpg"
-                              alt=""
-                              className={styles.pp}
-                            />
-                            <h2>Database Management Systems</h2>
+                            <img src="/images/dev.jpg" alt="" className={styles.pp} />
+                            <h2>DATABASE MANAGEMENT</h2>
                           </div>
                           <div className={styles.card__body}>
                             <h3>SQL & NoSQL</h3>
                             <p>
-                              With my career leading me down a path of software
-                              development and data science combined, I have had
-                              to become well-adept at getting data from
-                              databases.
+                              Expertise in managing databases using SQL Server, PostgreSQL, and MySQL.
+                              Optimizing performance with indexing, stored procedures, and query tuning.
+                              Proficient in data modeling and API integrations.
                             </p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
+
                   <div className={styles.card}>
                     <div className={styles.card__inner}>
-                      <div
-                        className={`${styles.card__face} ${styles.card__face_front}`}
-                      >
-                        <h2>Restful APIs</h2>
+                      <div className={`${styles.card__face} ${styles.card__face_front}`}>
+                        <h2>Security & Testing</h2>
                       </div>
-                      <div
-                        className={`${styles.card__face} ${styles.card__face_back}`}
-                      >
+                      <div className={`${styles.card__face} ${styles.card__face_back}`}>
                         <div className={styles.card__content}>
                           <div className={styles.card__header}>
-                            <img
-                              src="/images/api.jpg"
-                              q
-                              className={styles.pp}
-                            />
-                            <h2>Application Programming Interface</h2>
+                            <img src="/images/dev.jpg" alt="" className={styles.pp} />
+                            <h2>SECURITY & TESTING</h2>
                           </div>
                           <div className={styles.card__body}>
-                            <h3>Tech Talks</h3>
+                            <h3>Authentication & Automation</h3>
                             <p>
-                              Thank you for coming to my Tech Talk. I am an api,
-                              ready to provide you with the information you need
-                              to make the right decisions!
+                              Implementing secure authentication with OAuth2, JWT, and role-based access control (RBAC). 
+                              Experience in automated testing using xUnit, NUnit, Selenium, and Postman.
                             </p>
                           </div>
                         </div>
@@ -609,6 +588,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
@@ -632,7 +612,7 @@ export default function Home() {
                       or perhaps colaborate together.{" "}
                     </li>
                     <li>
-                      <a href="/Thomas Matlock Resume 2023.pdf" download>
+                      <a href="/Thomas Matlock Resume.pdf" download>
                         <i>
                           <u>DOWNLOAD RESUME HERE</u>
                         </i>
