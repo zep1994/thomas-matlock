@@ -214,43 +214,17 @@ export default function Home() {
                             </h3>
                             <p className={styles.coDates}>2023 - 2025</p>
                             <ul className={styles.coExp}>
-                                <li>
-                                    Developed and optimized full-stack applications using ASP.NET Core, C#, and Razor, enhancing system performance by 30%.
-                                </li>
-                                <li>
-                                    Designed and implemented RESTful APIs with ASP.NET Core and SQL Server, improving data retrieval efficiency and front-end integrations.
-                                </li>
-                                <li>
-                                    Led Azure DevOps CI/CD pipeline implementation, reducing deployment time by 40% through automation with YAML pipelines and Docker.
-                                </li>
-                                <li>
-                                    Optimized SQL Server performance, improving query execution times by 25% via indexing and stored procedures.
-                                </li>
-                                <li>
-                                    Enhanced system security by implementing OAuth2 and JWT authentication, ensuring user access control and compliance.
-                                </li>
-                                <li>
-                                    Developed and maintained cloud-based solutions leveraging Azure Functions, Logic Apps, and App Services, increasing system scalability and fault tolerance.
-                                </li>
-                                <li>
-                                    Automated infrastructure provisioning using Terraform/Bicep, reducing manual setup times and enhancing deployment reliability.
-                                </li>
-                                <li>
-                                    Developed microservices-based architectures, breaking down monolithic applications into scalable, modular services using .NET and Docker.
-                                </li>
-                                <li>
-                                    Refactored legacy codebases, improving maintainability, reducing technical debt, and ensuring better performance with SOLID principles and Clean Architecture.
-                                </li>
-                                <li>
-                                    Designed and implemented automated testing strategies using Selenium, reducing post-deployment bugs by 30% and improving release stability.
-                                </li>
-                                <li>
-                                    Integrated third-party APIs to streamline payment processing, user authentication, and external data services, enhancing application functionality.
-                                </li>
-                                <li>
-                                    Collaborated with cross-functional teams in Agile/Scrum environments, participating in sprint planning, code reviews, and backlog refinement to ensure high-quality deliverables.
-                                </li>
-                            </ul>
+                              <li>Optimized full-stack applications with ASP.NET Core, C#, and Razor, improving performance by 30%.</li>
+                              <li>Developed RESTful APIs and optimized SQL Server queries, reducing execution times by 25%.</li>
+                              <li>Led Azure DevOps CI/CD automation with YAML and Docker, cutting deployment time by 40%.</li>
+                              <li>Implemented OAuth2 and JWT authentication, enhancing security and compliance.</li>
+                              <li>Developed scalable cloud solutions using Azure Functions, Logic Apps, and App Services.</li>
+                              <li>Automated infrastructure provisioning with Terraform/Bicep, improving deployment efficiency.</li>
+                              <li>Refactored legacy code, reducing technical debt and improving maintainability.</li>
+                              <li>Integrated third-party APIs for payments, authentication, and data services.</li>
+                              <li>Designed automated testing strategies with Selenium, reducing post-deployment bugs by 30%.</li>
+                              <li>Collaborated in Agile teams, contributing to sprint planning, code reviews, and backlog refinement.</li>
+                          </ul>
                         </div>
                       </>
                     )}
@@ -403,15 +377,12 @@ export default function Home() {
                       manage jiujitsu training sessions, log progress, and analyze performance over time. This project
                       involves full-stack .NET development, using C# and .NET Core to build RESTful APIs, manage data 
                       persistence with Entity Framework and SQL Server, and integrate authentication and cloud-based features.
-                      By working with .NET MAUI for the frontend, this project provides hands-on experience in cross-platform 
-                      mobile app development, UI/UX design, and state management, making it a great opportunity to learn how 
-                      to build scalable, real-world applications using modern .NET technologies.
                       </p>
                       <ul className={styles.stackUl}>
-                        <li className={styles.listItem}>Visual Studio 2022</li>
-                        <li className={styles.listItem}>.NET Web API / .NET MAUI</li>
-                        <li className={styles.listItem}>API Development and Security Complaince</li>
-                        <li className={styles.listItem}>Version Control</li>
+                        <li className={styles.listItem}>VisualStudio</li>
+                        <li className={styles.listItem}>.NET Core</li>
+                        <li className={styles.listItem}>API</li>
+                        <li className={styles.listItem}>Git</li>
                       </ul>
                       <button>
                         <a
@@ -432,14 +403,11 @@ export default function Home() {
                         The Flushed project is a .NET MAUI-based mobile application designed to provide real-time water management and 
                         monitoring capabilities. This project involves full-stack .NET development, utilizing C# and .NET Core for backend 
                         logic, Entity Framework and SQL Server for data management, and RESTful APIs for communication between the frontend 
-                        and backend. By leveraging .NET MAUI for the frontend, the project offers hands-on experience in cross-platform mobile 
-                        app development, UI/UX design, and state management. Additionally, it integrates cloud-based features and IoT 
-                        connectivity, making it an excellent opportunity to learn how to build scalable, interactive mobile applications using 
-                        modern .NET technologies.
+                        and backend.
                       </p>
                       <ul className={styles.stackUl2}>
-                        <li className={styles.listItem}>VsCode</li>
-                        <li className={styles.listItem}>.NET Core / .NET MAUI</li>
+                        <li className={styles.listItem}>MultiPlaform</li>
+                        <li className={styles.listItem}>MAUI</li>
                         <li className={styles.listItem}>MVVM</li>
                         <li className={styles.listItem}>PostgreSQL</li>
                       </ul>
@@ -474,7 +442,7 @@ export default function Home() {
                         web applications and audit automation tools.                      
                       </p>
                       <ul className={styles.stackUl2}>
-                        <li className={styles.listItem}>VsCode</li>
+                        <li className={styles.listItem}>Express.js</li>
                         <li className={styles.listItem}>Node.js</li>
                         <li className={styles.listItem}>Python</li>
                         <li className={styles.listItem}>EJS</li>
@@ -519,7 +487,7 @@ export default function Home() {
                           <div className={styles.card__body}>
                             <h3>Azure & CI/CD</h3>
                             <p>
-                              Experienced in cloud computing and infrastructure automation using Azure, Terraform, 
+                              Experienced in cloud computing and infrastructure automation using Azure, 
                               Kubernetes, and Docker. Proficient in setting up CI/CD pipelines with Azure DevOps 
                               and GitHub Actions to enhance deployment efficiency.
                             </p>
@@ -543,7 +511,7 @@ export default function Home() {
                           <div className={styles.card__body}>
                             <h3>.NET & JavaScript</h3>
                             <p>
-                              Skilled in building scalable applications with ASP.NET Core, Blazor, Angular, 
+                              Skilled in building scalable applications with ASP.NET Core, Razor, React, 
                               and Next.js. Experienced in developing RESTful APIs and microservices 
                               architectures for modern web applications.
                             </p>

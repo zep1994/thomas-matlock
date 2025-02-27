@@ -598,12 +598,12 @@
   height: 100%;
   width: 100%;
   min-height: 1400px;
-  max-height: 1800px;
+  max-height: 2800px;
 }
 
 .content6 {
   width: 1000px;
-  height: 900px;
+  height: 1408px;
   margin: auto;
 }
 
@@ -672,7 +672,7 @@
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 3rem;
-  background-image: linear-gradient(to bottom, #60f7d4a6, #60f7d4cc), url(/images/blockchain.png);
+  background-image: linear-gradient(to bottom, #60f7d4a6, #60f7d4cc), url(/images/flush.png);
   background-repeat: no-repeat;
   background-size: contain;
   }
@@ -680,7 +680,7 @@
 
 
 .projectImg2:hover::after {
-  background-image: linear-gradient(to bottom, #60f7d40f, #60f7d405), url(/images/blockchain.png);
+  background-image: linear-gradient(to bottom, #60f7d40f, #60f7d405), url(/images/flush.png);
   transition: opacity 4s ease;
 }
 
@@ -729,7 +729,7 @@
   margin-top: auto;
   margin-bottom: auto;
   margin-right: 3rem;
-  background-image: linear-gradient(to bottom, #60f7d4a6, #60f7d4cc), url(/images/gameup.png);
+  background-image: linear-gradient(to bottom, #60f7d4a6, #60f7d4cc), url(/images/rollon.png);
   background-repeat: no-repeat;
   background-size: contain;
   }
@@ -737,7 +737,7 @@
 
 
 .projectImg:hover::after {
-  background-image: linear-gradient(to bottom, #60f7d40f, #60f7d405), url(/images/gameup.png);
+  background-image: linear-gradient(to bottom, #60f7d40f, #60f7d405), url(/images/rollon.png);
   transition: opacity 4s ease;
 }
 
