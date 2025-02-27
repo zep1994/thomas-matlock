@@ -106,10 +106,10 @@ export default function Home() {
               <p className={styles.hi}>Hi, my name is </p>
               <h1 className={styles.introHeader}>Thomas Matlock.</h1>
               <h1 className={styles.secondaryHeader}>
-              FULL STACK DEVELOPER | CLOUD SOLUTIONS ARCHITECT
+              .NET FULL STACK DEVELOPER | BUILDING HIGH-PERFORMANCE APPLICATIONS | AZURE
               </h1>
               <p className={styles.description}>
-              Experienced Full Stack Developer with expertise in .NET, Blazor, Angular, and Azure. 
+              Experienced Full Stack Developer with expertise in .NET, Razpr, React, and Azure. 
               Passionate about optimizing system performance, implementing CI/CD pipelines, 
               and architecting scalable cloud solutions. Dedicated to continuous learning, 
               driving innovation, and delivering high-impact technical solutions.
@@ -215,13 +215,13 @@ export default function Home() {
                             <p className={styles.coDates}>2023 - 2025</p>
                             <ul className={styles.coExp}>
                                 <li>
-                                    Developed and optimized full-stack applications using ASP.NET Core, C#, and Blazor, enhancing system performance by 30%.
+                                    Developed and optimized full-stack applications using ASP.NET Core, C#, and Razor, enhancing system performance by 30%.
                                 </li>
                                 <li>
-                                    Designed and implemented RESTful APIs with ASP.NET Core and GraphQL, improving data retrieval efficiency and front-end integrations.
+                                    Designed and implemented RESTful APIs with ASP.NET Core and SQL Server, improving data retrieval efficiency and front-end integrations.
                                 </li>
                                 <li>
-                                    Led Azure DevOps CI/CD pipeline implementation, reducing deployment time by 40% through automation with YAML pipelines, Docker, and Kubernetes.
+                                    Led Azure DevOps CI/CD pipeline implementation, reducing deployment time by 40% through automation with YAML pipelines and Docker.
                                 </li>
                                 <li>
                                     Optimized SQL Server performance, improving query execution times by 25% via indexing and stored procedures.
@@ -242,7 +242,7 @@ export default function Home() {
                                     Refactored legacy codebases, improving maintainability, reducing technical debt, and ensuring better performance with SOLID principles and Clean Architecture.
                                 </li>
                                 <li>
-                                    Designed and implemented automated testing strategies using Selenium, xUnit, and NUnit, reducing post-deployment bugs by 30% and improving release stability.
+                                    Designed and implemented automated testing strategies using Selenium, reducing post-deployment bugs by 30% and improving release stability.
                                 </li>
                                 <li>
                                     Integrated third-party APIs to streamline payment processing, user authentication, and external data services, enhancing application functionality.
@@ -397,24 +397,25 @@ export default function Home() {
                     </div>
                     <div className={styles.pro1Info}>
                       <span className={styles.feat}>Featured Project</span>
-                      <h3 className={styles.proName}>Game Up</h3>
+                      <h3 className={styles.proName}></h3>
                       <p className={styles.description}>
-                        One of my first project where I learned Node whiles I
-                        was at Flatiron. This was a project I did on the side.
-                        We were learning Rails, but I could not help but learn
-                        some Node. Little did I know at the time, I was forming
-                        a deep bond with Javascript. I have come learn so much
-                        about it since i started.
+                      The RollOnThePath project is a .NET MAUI-based mobile application designed to help users track and 
+                      manage jiujitsu training sessions, log progress, and analyze performance over time. This project
+                      involves full-stack .NET development, using C# and .NET Core to build RESTful APIs, manage data 
+                      persistence with Entity Framework and SQL Server, and integrate authentication and cloud-based features.
+                      By working with .NET MAUI for the frontend, this project provides hands-on experience in cross-platform 
+                      mobile app development, UI/UX design, and state management, making it a great opportunity to learn how 
+                      to build scalable, real-world applications using modern .NET technologies.
                       </p>
                       <ul className={styles.stackUl}>
-                        <li className={styles.listItem}>VsCode</li>
-                        <li className={styles.listItem}>Node.js</li>
-                        <li className={styles.listItem}>EJS</li>
-                        <li className={styles.listItem}>Bash</li>
+                        <li className={styles.listItem}>Visual Studio 2022</li>
+                        <li className={styles.listItem}>.NET Web API / .NET MAUI</li>
+                        <li className={styles.listItem}>API Development and Security Complaince</li>
+                        <li className={styles.listItem}>Version Control</li>
                       </ul>
                       <button>
                         <a
-                          href="https://github.com/zep1994/Version_01_GameUp"
+                          href="https://github.com/zep1994/RollOnThePath"
                           target="_blank"
                         >
                           Learn More
@@ -426,20 +427,25 @@ export default function Home() {
                   <div className={styles.project2}>
                     <div className={styles.pro2Info}>
                       <span className={styles.feat}>Featured Project</span>
-                      <h3 className={styles.proName}>Full Stack Node Application</h3>
+                      <h3 className={styles.proName}>Full Stack .NET Application</h3>
                       <p className={styles.description}>
-                        This application goes deep into how node works, I cover authentication, api development, frontend templating and much more.
-                        I really go into depth with this project. I plan to cover everything. Follow this application for the most recent updates, (https://github.com/zep1994/Node_Project_2023)
+                        The Flushed project is a .NET MAUI-based mobile application designed to provide real-time water management and 
+                        monitoring capabilities. This project involves full-stack .NET development, utilizing C# and .NET Core for backend 
+                        logic, Entity Framework and SQL Server for data management, and RESTful APIs for communication between the frontend 
+                        and backend. By leveraging .NET MAUI for the frontend, the project offers hands-on experience in cross-platform mobile 
+                        app development, UI/UX design, and state management. Additionally, it integrates cloud-based features and IoT 
+                        connectivity, making it an excellent opportunity to learn how to build scalable, interactive mobile applications using 
+                        modern .NET technologies.
                       </p>
                       <ul className={styles.stackUl2}>
                         <li className={styles.listItem}>VsCode</li>
-                        <li className={styles.listItem}>Node.js</li>
-                        <li className={styles.listItem}>NoSQL</li>
-                        <li className={styles.listItem}>Bash</li>
+                        <li className={styles.listItem}>.NET Core / .NET MAUI</li>
+                        <li className={styles.listItem}>MVVM</li>
+                        <li className={styles.listItem}>PostgreSQL</li>
                       </ul>
                       <button>
                         <a
-                          href="https://github.com/zep1994/Simple_Blockchain_JS"
+                          href="https://github.com/zep1994/Flushed"
                           target="_blank"
                         >
                           Learn More
@@ -459,14 +465,20 @@ export default function Home() {
                       <span className={styles.feat}>Featured Project</span>
                       <h3 className={styles.proName}>Internal Audit App</h3>
                       <p className={styles.description}>
-                        This project is built with workflow and memory in mind. This stores information in a meaningful way that allows the user the to run custom analytics on the files that are saved within thie dataase.
+                        The Internal Audit App is a Node.js and Python-based application designed to streamline workflow management and 
+                        data analytics for internal auditing. This project enables users to create, label, and store workflows with associated 
+                        files while leveraging Python scripts to generate customized reports based on the stored data. The backend is built with 
+                        Node.js, utilizing Express.js for routing and MongoDB for data storage, while the frontend is implemented using 
+                        EJS (Embedded JavaScript Templates). This project provides hands-on experience in backend development, REST API creation, 
+                        data processing with Python, and workflow automation, making it an excellent learning opportunity for building scalable 
+                        web applications and audit automation tools.                      
                       </p>
                       <ul className={styles.stackUl2}>
                         <li className={styles.listItem}>VsCode</li>
                         <li className={styles.listItem}>Node.js</li>
-                        <li className={styles.listItem}>JQuery</li>
+                        <li className={styles.listItem}>Python</li>
                         <li className={styles.listItem}>EJS</li>
-                        <li className={styles.listItem}>Bash</li>
+                        <li className={styles.listItem}>MongoDB</li>
                       </ul>
                       <button>
                         <a
