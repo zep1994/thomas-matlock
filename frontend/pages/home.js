@@ -22,7 +22,7 @@ const home = () => {
             <div className={styles.introContent}>
                 <p className={styles.hi}>Hi, my name is </p>
                 <h1 className={styles.introHeader}>Thomas Matlock.</h1>
-                <h1 className={styles.secondaryHeader}>FULL STACK DEVELOPER | CLOUD SOLUTIONS ARCHITECT</h1>
+                <h1 className={styles.secondaryHeader}>.NET FULL STACK DEVELOPER | BUILDING HIGH-PERFORMANCE APPLICATIONS | AZURE</h1>
                 <p className={styles.description}>Experienced Full Stack Developer with expertise in .NET, Blazor, Angular, and Azure. Passionate about optimizing system performance, implementing CI/CD pipelines, and architecting scalable cloud solutions. Dedicated to continuous learning and innovation in software development.</p>
                 <button type='button' className={styles.btn}>CHECK OUT MY RESUME</button>
             </div>
