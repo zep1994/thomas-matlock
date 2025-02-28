@@ -363,7 +363,7 @@ export default function Home() {
                   <p className={styles.sec1}>04.</p>
                   <p className={styles.about}>Things I've Built</p>
                   <span className={styles.contactMe}>
-                    Due to a couple apps going on the app stores, please 
+                    Due to a couple apps going on the app stores, to the main repos, please email me
                     <a href="mailto:thomasmatlockbba@gmail.com" className={styles.emailLink}>
                       <img src="/images/gmail2.png" alt="Email Icon" Email Me />
                       Email Me
