@@ -115,7 +115,7 @@ export default function Home() {
               driving innovation, and delivering high-impact technical solutions.
               </p>
               <button type="button" className={styles.btn}>
-                <a href="Thomas Matlock Resume 2023.pdf" target="_blank">
+                <a href="Thomas Matlock Resume.pdf" target="_blank">
                   CHECK OUT MY RESUME
                 </a>
               </button>
@@ -326,7 +326,7 @@ export default function Home() {
                             MThree{" "}
                             <a
                               target="_blank"
-                              href="https://morganstanley.com/"
+                              href="https://mthree.com/"
                             >
                               @MThree
                             </a>
@@ -366,7 +366,7 @@ export default function Home() {
                     Due to a couple apps going on the app stores, to the main repos, please email me
                     <a href="mailto:thomasmatlockbba@gmail.com" className={styles.emailLink}>
                       <img src="/images/gmail2.png" alt="Email Icon" Email Me />
-]                    </a>
+                    </a>
                   </span>                 
                 </div>
                 <div className={styles.workList}>
