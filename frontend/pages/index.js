@@ -116,16 +116,6 @@ export default function Home() {
                   CHECK OUT MY RESUME
                 </a>
               </button>
-              <h2 className={styles.reviewHeader}>Performance Review</h2>
-              <p className={styles.reviewText}>
-                "As our SVP of Operations, Thomas is extremely productive. He has had major success in
-                revenue cycle, program development, facilities, and finance/administration. He has made
-                enhancements in cultivating a team dynamic within our organization that has allowed us to
-                achieve unparalleled success ~ and in developing relationships with key team members within
-                the organization. He has also exemplified the type of process improvement rigor that we need
-                throughout our organization. He is simply outstanding in his SVP role."
-              </p>
-              <p className={styles.reviewSource}>~ Excerpt from a Recent Performance Appraisal</p>
             </div>
           </div>
 
