@@ -467,9 +467,50 @@
 .card__inner {
 	transform-style: preserve-3d;
 }
-.back {
-	/*   opacity:0.5 */
+.contactMe {
+  display: flex;
+  color: #60F7D3; 
+  font-weight: bold;
+  font-size: 1rem;
+  margin-left: 10px;
+  margin-top: 17px;
+  transition: color 0.3s ease-in-out;
 }
+
+.contactMe:hover {
+  color: #44c4b1;
+  cursor: pointer;
+}
+
+.emailLink {
+  height: 3px;
+  width: 2px;
+  color: #60F7D3; 
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-flex; 
+  align-items: center; 
+  gap: 5px; 
+  transition: color 0.3s ease-in-out;
+}
+
+.emailLink:hover {
+  color: #44c4b1; 
+  text-decoration: underline;
+}
+
+.emailIcon {
+  height: 35px;
+  width: 35px;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+.emailMe {
+  margin-top: 15px;
+}
+
+
 .card__face_front {
 	width: 100%;
 }

@@ -361,7 +361,14 @@ export default function Home() {
               <div className={styles.info6}>
                 <div className={styles.txtHeads2}>
                   <p className={styles.sec1}>04.</p>
-                  <p className={styles.about}>Things I've Built (Due to a couple apps going on the apps stores, please contact me)</p>
+                  <p className={styles.about}>Things I've Built</p>
+                  <span className={styles.contactMe}>
+                    Due to a couple apps going on the app stores, please 
+                    <a href="mailto:thomasmatlockbba@gmail.com" className={styles.emailLink}>
+                      <img src="/images/gmail2.png" alt="Email Icon" Email Me />
+                      Email Me
+                    </a>
+                  </span>                 
                 </div>
                 <div className={styles.workList}>
                   <div className={styles.project1}>
