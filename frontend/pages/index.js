@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Thomas Matlock</title>
+        <title>T.M. | Full Stack Developer</title>
         <meta name="description" content="Thomas Matlocks Personal Site" />
         <link rel="icon" href="/images/logo.png" />
       </Head>
