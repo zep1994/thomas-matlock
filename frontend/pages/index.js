@@ -362,7 +362,7 @@ export default function Home() {
                   <span className={styles.contactMe}>
                     Due to a couple apps going on the app stores, to the main repos, please email me
                     <a href="mailto:thomasmatlockbba@gmail.com" className={styles.emailLink}>
-                      <img src="/images/gmail2.png" alt="Email Icon" Email Me />
+                      <img src="/images/gmail2.png" alt="Email Icon" />
                     </a>
                   </span>                 
                 </div>

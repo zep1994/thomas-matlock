@@ -456,6 +456,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .card__inner {
@@ -807,6 +808,12 @@
 .contactInfo {
   width: 95%;
   margin: auto;
+}
+
+@media (max-width: 1050px) {
+  .introContent {
+    padding-left: 30px;
+  }
 }
 
 @media (max-width: 830px) {
