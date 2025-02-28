@@ -106,7 +106,7 @@
   height: 100%;
   width: 100%;
   background-color: #0A192F;
-  min-height: 600px;
+  min-height: 800px;
   max-height: 1500px;
   position: relative;
   display: flex;
@@ -545,7 +545,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(160deg, #60F7D3 20%, #60F7D3 80%); 
+  background: linear-gradient(160deg, rgba(96, 247, 212, 0.5), rgba(96, 247, 212, 0.7)); 
   z-index: -1;
   border-radius: 0px 0px 50% 0px;
 }
@@ -714,7 +714,7 @@
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 3rem;
-  background-image: linear-gradient(to bottom, #60f7d4a6, #60f7d4cc), url(/images/flush.png);
+  background-image: linear-gradient(to bottom, rgba(96, 247, 212, 0.5), rgba(96, 247, 212, 0.7)), url(/images/flush.png);
   background-repeat: no-repeat;
   background-size: contain;
   }
@@ -722,7 +722,7 @@
 
 
 .projectImg2:hover::after {
-  background-image: linear-gradient(to bottom, #60f7d40f, #60f7d405), url(/images/flush.png);
+  background-image: linear-gradient(to bottom, rgba(96, 247, 212, 0.5), rgba(96, 247, 212, 0.7)), url(/images/flush.png);
   transition: opacity 4s ease;
 }
 
@@ -752,7 +752,7 @@
   height: 300px;
   width: 330px;
   margin-left: 3rem;
-  background-image: linear-gradient(to bottom, #60f7d4a6, #60f7d4cc), url(/images/audit.png);
+  background-image: linear-gradient(to bottom, rgba(96, 247, 212, 0.5), rgba(96, 247, 212, 0.7)), url(/images/audit.png);
   background-repeat: no-repeat;
   background-size: contain;
   }
@@ -760,7 +760,7 @@
 
 
 .projectImg3:hover::after {
-  background-image: linear-gradient(to bottom, #60f7d40f, #60f7d405), url(/images/audit.png);
+  background-image: linear-gradient(to bottom, rgba(96, 247, 212, 0.5), rgba(96, 247, 212, 0.7)), url(/images/audit.png);
   transition: opacity 4s ease;
 }
 
@@ -776,7 +776,7 @@
   margin-top: auto;
   margin-bottom: auto;
   margin-right: 3rem;
-  background-image: linear-gradient(to bottom, #60f7d4a6 60%, #60f7d4cc), url(/images/rollon.png);
+  background-image: linear-gradient(to bottom, rgba(96, 247, 212, 0.5), rgba(96, 247, 212, 0.7)), url(/images/rollon.png);
   background-repeat: no-repeat;
   background-size: contain;
   }
@@ -784,7 +784,7 @@
 
 
 .projectImg:hover::after {
-  background-image: linear-gradient(to bottom, #60f7d40f, #60f7d405), url(/images/rollon.png);
+  background-image: linear-gradient(to bottom, rgba(96, 247, 212, 0.5), rgba(96, 247, 212, 0.7)), url(/images/rollon.png);
   transition: opacity 4s ease;
 }
 
