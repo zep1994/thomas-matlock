@@ -134,11 +134,11 @@ export default function Home() {
                   <br />
                   <br />
                   <p className={styles.descript}>
-                  Hello! My name is Thomas Matlock, and I am a highly skilled Full Stack Developer with expertise in
+                    Hello! My name is Thomas Matlock, and I am a highly skilled Full Stack Developer with expertise in
                    .NET, Blazor, Angular, and Azure. I am passionate about innovation and creativity, always seeking 
-                   opportunities to optimize system performance, implement CI/CD pipelines, and architect scalable cloud solutions. 
-                   My background spans software development, data analytics, and enterprise application architecture, enabling me to 
-                   build efficient, high-impact solutions.
+                    opportunities to optimize system performance, implement CI/CD pipelines, and architect scalable cloud solutions. 
+                    My background spans software development, data analytics, and enterprise application architecture, enabling me to 
+                    build efficient, high-impact solutions.
                     <br />
                     <br />
                     Leveraging my expertise in software development and data analytics, I have built and optimized applications
@@ -361,9 +361,8 @@ export default function Home() {
               <div className={styles.info6}>
                 <div className={styles.txtHeads2}>
                   <p className={styles.sec1}>04.</p>
-                  <p className={styles.about}>Things I've Built</p>
+                  <p className={styles.about}>Things I've Built (Due to a couple apps going on the apps stores, please contact me)</p>
                 </div>
-
                 <div className={styles.workList}>
                   <div className={styles.project1}>
                     <div className={styles.imgGradient}>
@@ -400,10 +399,11 @@ export default function Home() {
                       <span className={styles.feat}>Featured Project</span>
                       <h3 className={styles.proName}>Full Stack .NET Application</h3>
                       <p className={styles.description}>
-                        The Flushed project is a .NET MAUI-based mobile application designed to provide real-time water management and 
-                        monitoring capabilities. This project involves full-stack .NET development, utilizing C# and .NET Core for backend 
-                        logic, Entity Framework and SQL Server for data management, and RESTful APIs for communication between the frontend 
-                        and backend.
+                      Flushed is a .NET MAUI-based application designed to help users track their diet, digestive health, 
+                      and IBS symptoms in real time. The app enables users to log meals, monitor symptom, and analyze 
+                      potential triggers based on dietary intake. Built with full .NET stack, it utilizes C# and .NET 
+                      Core for backend logic, Entity Framework and SQL Server for data management, and RESTful APIs for seamless 
+                      communication between the frontend and backend. 
                       </p>
                       <ul className={styles.stackUl2}>
                         <li className={styles.listItem}>MultiPlaform</li>

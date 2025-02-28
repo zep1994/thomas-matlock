@@ -115,12 +115,11 @@
 
 .introContent {
   width: 1000px;
-  height: 1000px;
+  height: 600px;
   position: relative;
   margin: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .hi {
@@ -661,6 +660,8 @@
   text-align: right;
   float: left; 
   display: flex;
+  justify-content: center;
+  align-items: center; 
   flex-direction: row;
   margin-top: 3rem;
 }
@@ -668,7 +669,7 @@
 
 .projectImg2 {
   height: 300px;
-  width: 500px;
+  width: 330px;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 3rem;
@@ -698,16 +699,17 @@
   text-align: right;
   float: left; 
   display: flex;
+  justify-content: center;
+  align-items: center; 
   flex-direction: row;
   margin-top: 3rem;
+  width: 100%;
 }
 
 
 .projectImg3 {
   height: 300px;
-  width: 500px;
-  margin-top: auto;
-  margin-bottom: auto;
+  width: 330px;
   margin-left: 3rem;
   background-image: linear-gradient(to bottom, #60f7d4a6, #60f7d4cc), url(/images/audit.png);
   background-repeat: no-repeat;
@@ -725,11 +727,15 @@
 
 .projectImg {
   height: 300px;
-  width: 500px;
+  width: 180px;
+  float: left; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: auto;
   margin-bottom: auto;
   margin-right: 3rem;
-  background-image: linear-gradient(to bottom, #60f7d4a6, #60f7d4cc), url(/images/rollon.png);
+  background-image: linear-gradient(to bottom, #60f7d4a6 60%, #60f7d4cc), url(/images/rollon.png);
   background-repeat: no-repeat;
   background-size: contain;
   }
