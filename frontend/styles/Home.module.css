@@ -472,7 +472,7 @@
   display: flex;
   color: #60F7D3; 
   font-weight: bold;
-  font-size: 1rem;
+  font-size: .9rem;
   margin-left: 10px;
   margin-top: 17px;
   transition: color 0.3s ease-in-out;
@@ -644,7 +644,7 @@
 
 .content6 {
   width: 1000px;
-  height: 1408px;
+  height: 1508px;
   margin: auto;
 }
 
@@ -652,6 +652,7 @@
   display: flex;
   flex-direction: row;
   float: right;
+  width: 100%
 }
 
 .stackUl2 {
@@ -677,11 +678,11 @@
   margin-top: 150px;
 }
 .stackUl li {
-  margin-left: 1.25rem;
+  margin-left: 1.8rem;
 }
 
 .stackUl2 li {
-  margin-right: 1.3rem;
+  margin-right: 1.8rem;
 
 }
 
