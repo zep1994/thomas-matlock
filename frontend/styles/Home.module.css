@@ -106,7 +106,7 @@
   height: 100%;
   width: 100%;
   background-color: #0A192F;
-  min-height: 1050px;
+  min-height: 800px;
   max-height: 1500px;
   position: relative;
   display: flex;
@@ -456,6 +456,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .card__inner {
@@ -807,6 +808,12 @@
 .contactInfo {
   width: 95%;
   margin: auto;
+}
+
+@media (max-width: 1050px) {
+  .introContent {
+    padding-left: 30px;
+  }
 }
 
 @media (max-width: 830px) {
