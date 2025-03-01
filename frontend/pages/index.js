@@ -33,6 +33,14 @@ export default function Home() {
         <title>T.M. | Full Stack Developer</title>
         <meta name="description" content="Thomas Matlocks Personal Site" />
         <link rel="icon" href="/images/logo.png" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LL7G53VEYL"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);
+          gtag('js', new Date());
+
+          gtag('config', 'G-LL7G53VEYL');
+        </script>
       </Head>
 
       <div className={styles.mainContent}>
