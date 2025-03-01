@@ -383,7 +383,7 @@ export default function Home() {
                     </div>
                     <div className={styles.pro1Info}>
                       <span className={styles.feat}>Featured Project</span>
-                      <h3 className={styles.proName}></h3>
+                      <h3 className={styles.proName}>Roll On Jiujitsu Coaches School Management App</h3>
                       <p className={styles.description}>
                       The RollOnThePath project is a .NET MAUI-based mobile application designed to help users track and 
                       manage jiujitsu training sessions, log progress, and analyze performance over time. This project
@@ -394,7 +394,7 @@ export default function Home() {
                         <li className={styles.listItem}>VisualStudio</li>
                         <li className={styles.listItem}>.NET Core</li>
                         <li className={styles.listItem}>API</li>
-                        <li className={styles.listItem}>Git</li>
+                        <li className={styles.listItem}>PostgreSQL</li>
                       </ul>
                       <button>
                         <a
@@ -410,7 +410,7 @@ export default function Home() {
                   <div className={styles.project2}>
                     <div className={styles.pro2Info}>
                       <span className={styles.feat}>Featured Project</span>
-                      <h3 className={styles.proName}>Full Stack .NET Application</h3>
+                      <h3 className={styles.proName}>Featured .NET Tracking Food and Water MAUI App</h3>
                       <p className={styles.description}>
                       Flushed is a .NET MAUI-based application designed to help users track their diet, digestive health, 
                       and IBS symptoms in real time. The app enables users to log meals, monitor symptom, and analyze 
@@ -422,7 +422,7 @@ export default function Home() {
                         <li className={styles.listItem}>MultiPlaform</li>
                         <li className={styles.listItem}>MAUI</li>
                         <li className={styles.listItem}>MVVM</li>
-                        <li className={styles.listItem}>PostgreSQL</li>
+                        <li className={styles.listItem}>XAML</li>
                       </ul>
                       <button>
                         <a
@@ -444,7 +444,7 @@ export default function Home() {
                     </div>
                     <div className={styles.pro3Info}>
                       <span className={styles.feat}>Featured Project</span>
-                      <h3 className={styles.proName}>Internal Audit App</h3>
+                      <h3 className={styles.proName}>IT Internal Audit Management App</h3>
                       <p className={styles.description}>
                         The Internal Audit App is a Node.js and Python-based application designed to streamline workflow management and 
                         data analytics for internal auditing. This project enables users to create, label, and store workflows with associated 
