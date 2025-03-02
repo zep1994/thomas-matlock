@@ -24,20 +24,6 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Thomas Matlock's Site</title>
-        <meta name="description" content="Thomas Matlocks Personal Site" />
-        <link rel="icon" href="/favicon.ico" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LL7G53VEYL"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);
-          gtag('js', new Date());
-
-          gtag('config', 'G-LL7G53VEYL');
-        </script>
-      </Head>
-
       <div className={styles.mainContent}>
         <div className={styles.content}>
           {/* SECTION 1 */}
