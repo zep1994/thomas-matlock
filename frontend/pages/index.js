@@ -103,13 +103,11 @@ export default function Home() {
               <p className={styles.hi}>Hi, my name is </p>
               <h1 className={styles.introHeader}>Thomas Matlock.</h1>
               <h1 className={styles.secondaryHeader}>
-              .NET FULL STACK DEVELOPER | BUILDING HIGH-PERFORMANCE APPLICATIONS | AZURE
+              .NET FULL STACK DEVELOPER | BUILDING HIGH-PERFORMANCE APPLICATIONS
               </h1>
               <p className={styles.description}>
-              Experienced Full Stack Developer with expertise in .NET, Razpr, React, and Azure. 
-              Passionate about optimizing system performance, implementing CI/CD pipelines, 
-              and architecting scalable cloud solutions. Dedicated to continuous learning, 
-              driving innovation, and delivering high-impact technical solutions.
+              Experienced Full Stack Developer with expertise in NET Core, .NET Framework, React, and Azure, specializing in building and optimizing scalable web applications,
+              API development, and automation. Skilled in backend development, database optimization, and CI/CD pipeline integration, with hands-on experience deploying and managing cloud-enabled applications.
               </p>
               <button type="button" className={styles.btn}>
                 <a href="Thomas Matlock Resume.pdf" target="_blank">
