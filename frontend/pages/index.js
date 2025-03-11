@@ -59,43 +59,6 @@ export default function Home() {
               </li>
             </ul>
           </div>
-          {/* NAVIGATION */}
-          <div className={styles.navigation}>
-            <div className={styles.logoTran}>
-              <a href="/">
-                <img
-                  src="/images/logo.png"
-                  className={styles.logo}
-                  alt="logo"
-                />
-                <p className={styles.name}>homas</p>
-              </a>
-            </div>
-            <ul className={styles.navLinks}>
-              <li>
-                <i className={styles.locator}>.01</i>
-                <a href="#about">About</a>
-              </li>
-              <li>
-                <i className={styles.locator}>.02</i><a href="#exp">Experience</a>
-              </li>
-              <li>
-                <i className={styles.locator}>.03</i>
-                <a href="#work">Work</a>
-              </li>
-              <li>
-                <i className={styles.locator}>.04</i>
-                <a href="#contact">Contact</a>
-              </li>
-              <li>
-                <button>
-                  <a href="Thomas Matlock Resume.pdf" target="_blank">
-                    RESUME
-                  </a>
-                </button>
-              </li>
-            </ul>
-          </div>
 
           {/* SECTION 1 */}
           <div className={styles.section1}>
