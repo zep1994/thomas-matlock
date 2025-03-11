@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import styles from "../styles/Home.module.css"; // using Home.module.css for uniform styling
+import styles from "../styles/Skills.module.css"; // using Home.module.css for uniform styling
 
 const Skills = () => {
   return (

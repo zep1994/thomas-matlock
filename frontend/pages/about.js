@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import styles from "../styles/Home.module.css"; // using Home.module.css for consistent styling
+import styles from "../styles/About.module.css"; // using Home.module.css for consistent styling
 
 const About = () => {
   return (

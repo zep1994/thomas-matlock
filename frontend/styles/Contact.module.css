@@ -1,1 +1,21 @@
 @import "./Home.module.css";
+
+
+.container {
+    background-color: #0A192F;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+
+  .content {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 70%;
+    flex-direction: column
+  }

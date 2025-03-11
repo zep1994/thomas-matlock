@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import styles from "../styles/Home.module.css"; // using same styling
+import styles from "../styles/Contact.module.css"; // using same styling
 
 const Contact = () => {
   return (
