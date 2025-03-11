@@ -106,7 +106,7 @@ export default function Home() {
               .NET FULL STACK DEVELOPER | BUILDING HIGH-PERFORMANCE APPLICATIONS
               </h1>
               <p className={styles.description}>
-              Experienced Full Stack Developer with expertise in NET Core, .NET Framework, React, and Azure, specializing in building and optimizing scalable web applications,
+              Experienced Full Stack Developer with expertise in NET Core, .NET Framework, React.js, and Azure, specializing in building and optimizing scalable web applications,
               API development, and automation. Skilled in backend development, database optimization, and CI/CD pipeline integration, with hands-on experience deploying and managing cloud-enabled applications.
               </p>
               <button type="button" className={styles.btn}>
@@ -130,7 +130,7 @@ export default function Home() {
                   <br />
                   <p className={styles.descript}>
                     Hello! My name is Thomas Matlock, and I am a highly skilled Full Stack Developer with expertise in
-                   .NET, Blazor, Angular, and Azure. I am passionate about innovation and creativity, always seeking 
+                   .NET, Blazor, React.js, and Azure. I am passionate about innovation and creativity, always seeking 
                     opportunities to optimize system performance, implement CI/CD pipelines, and architect scalable cloud solutions. 
                     My background spans software development, data analytics, and enterprise application architecture, enabling me to 
                     build efficient, high-impact solutions.
@@ -209,16 +209,16 @@ export default function Home() {
                             </h3>
                             <p className={styles.coDates}>2023 - 2025</p>
                             <ul className={styles.coExp}>
-                              <li>Optimized full-stack applications with ASP.NET Core, C#, and Razor, improving performance by 30%.</li>
-                              <li>Developed RESTful APIs and optimized SQL Server queries, reducing execution times by 25%.</li>
-                              <li>Led Azure DevOps CI/CD automation with YAML and Docker, cutting deployment time by 40%.</li>
-                              <li>Implemented OAuth2 and JWT authentication, enhancing security and compliance.</li>
-                              <li>Developed scalable cloud solutions using Azure Functions, Logic Apps, and App Services.</li>
-                              <li>Automated infrastructure provisioning with Terraform/Bicep, improving deployment efficiency.</li>
-                              <li>Refactored legacy code, reducing technical debt and improving maintainability.</li>
-                              <li>Integrated third-party APIs for payments, authentication, and data services.</li>
-                              <li>Designed automated testing strategies with Selenium, reducing post-deployment bugs by 30%.</li>
-                              <li>Collaborated in Agile teams, contributing to sprint planning, code reviews, and backlog refinement.</li>
+                              <li>Boosted system performance by 30% by optimizing .NET Core and .NET Framework applications for efficiency and scalability</li>
+                              <li>Led Azure DevOps CI/CD pipeline implementation, reducing deployment time by 40% through automation with YAML pipelines</li>
+                              <li>Developed and maintained cloud-based solutions leveraging Azure Functions, Logic Apps, and App Services, increasing system scalability and fault tolerance</li>
+                              <li>Optimized SQL Server performance, improving query execution times by 25% via indexing and stored procedures</li>
+                              <li>Enhanced system security by implementing OAuth2 and JWT authentication, ensuring user access control and compliance</li>
+                              <li>Refactored legacy codebases, improving maintainability, reducing technical debt, and ensuring better performance with SOLID principles and Clean Architecture.</li>
+                              <li>Designed and implemented automated testing strategies using Selenium, reducing post-deployment bugs by 30% and improving release stability.</li>
+                              <li>Optimized and maintained 20+ State of Mississippi agency applications, enhancing reliability and security, and improving uptime and security compliance</li>
+                              <li>Enhanced user experience and performance by leveraging Blazor for dynamic, responsive UI development, reducing page load times and improving accessibility across web applications.</li>
+                              <li>Integrated third-party APIs to streamline payment processing, user authentication, and external data services, enhancing application functionality</li>
                           </ul>
                         </div>
                       </>
@@ -237,24 +237,11 @@ export default function Home() {
                           </h3>
                           <p className={styles.coDates}>2022 - 2023</p>
                           <ul className={styles.coExp}>
-                            <li>
-                                Managed and maintained hosting for over 50 websites, ensuring optimal performance, security, and uptime.
-                            </li>
-                            <li>
-                                Led the development and deployment of two client websites in a single month, significantly reducing project backlog and improving customer satisfaction.
-                            </li>
-                            <li>
-                                Gained expertise in modern web development frameworks, including Next.js, Strapi, and Laravel, enhancing the scalability and maintainability of client projects.
-                            </li>
-                            <li>
-                                Optimized server infrastructure and automated deployment processes, reducing manual intervention and improving system reliability.
-                            </li>
-                            <li>
-                                Provided end-to-end client support, including onboarding, technical assistance, and training, ensuring seamless website management and functionality.
-                            </li>
-                            <li>
-                                Implemented process improvements that streamlined client support workflows, reducing resolution times and improving feedback loops.
-                            </li>
+                            <li>Coordinated and managed hosting for 50+ websites, utilizing a whole stack of web technologies including Next.js, Laravel, SendGrid, and PostgreSQL to ensure high performance and scalability</li>
+                            <li>Developed and maintained full-stack web applications, focusing on enhancing user experience, accessibility, and performance. Iterative improvements based on user feedback led to a 30% increase in customer satisfaction ratings</li>
+                            <li>Led a cross-functional team in optimizing the software lifecycle process, resulting in a 25% increase in deployment frequency and a 15% reduction in post-release defects.</li>
+                            <li>Optimized server infrastructure and automated deployments, implementing containerization and load-balancing strategies to improve reliability and ensure smooth scaling for growing traffic.</li>
+                            <li>Designed and implemented process improvements for client support workflows, refining escalation procedures and automation strategies, which significantly reduced response times and improved feedback loops between technical teams and clients</li>
                           </ul>
                         </div>
                       </>
@@ -263,53 +250,18 @@ export default function Home() {
                       <>
                         <div className={styles.coItem}>
                         <h3 className={styles.coTitle}>
-                            IT Internal Auditor{" "}
+                            Systems Auditor / Application Developer{" "}
                             <a target="_blank" href="https://ergon.com/">
                                 @Ergon, Inc.
                             </a>
                         </h3>
                         <p className={styles.coDates}>2021 - 2022</p>
                           <ul className={styles.coExp}>
-                            <li>
-                                Designed, implemented, and maintained an automated audit system that analyzed millions of journal entries, improving financial oversight and compliance.
-                            </li>
-                            <li>
-                                Developed exception reporting processes that identified financial risks, duplicate payments, and vendor inconsistencies, saving the company thousands in potential losses.
-                            </li>
-                            <li>
-                                Created real-time monitoring systems using SQL and Python, significantly enhancing the company's ability to detect and prevent fraudulent activity.
-                            </li>
-                            <li>
-                                Automated risk assessment reports, reducing manual auditing time and improving the efficiency of internal control reviews.
-                            </li>
-                          </ul>
-                        </div>
-                        <br />
-                        <br />
-                        <div className={styles.coItem}>
-                        <h3 className={styles.coTitle}>
-                            Application Developer{" "}
-                            <a target="_blank" href="https://ergon.com/">
-                                @Ergon, Inc.
-                            </a>
-                        </h3>
-                        <p className={styles.coDates}>2020 - 2021</p>
-                          <ul className={styles.coExp}>
-                            <li>
-                                Developed and maintained custom enterprise applications that streamlined operations, improving efficiency across multiple departments.
-                            </li>
-                            <li>
-                                Built a job and task tracking system that optimized resource allocation and reduced project delays.
-                            </li>
-                            <li>
-                                Automated data entry and reporting workflows using SQL and Python, reducing processing times by 50%.
-                            </li>
-                            <li>
-                                Modernized legacy applications, significantly improving performance and reducing ongoing support requests.
-                            </li>
-                            <li>
-                                Acted as a system administrator, providing technical support, troubleshooting critical issues, and implementing security enhancements.
-                            </li>
+                            <li>Managed OnBase for the entire company, ensuring secure document storage, retrieval, and workflow automation. Designed and deployed automated processes that eliminated an hour of daily manual work and improved processing speed by 40%</li>
+                            <li>Developed a Python-based automation script to analyze and process millions of SAP records, identifying discrepancies in data resulting in saving over 10% revenue a year</li>
+                            <li>Led full-stack LAMP stack development and maintenance to support business applications. Configured Apache, MySQL, and PHP environments, optimizing for performance and scalability, resulting in improved system reliability and reduced downtime</li>
+                            <li>Developed and maintained enterprise-wide applications to streamline business operations, taking ownership of system performance and uptime, ensuring robust and scalable software solutions that reduced manual workload by 10+ hours weekly also improved the Software Development Life Cycle (SDLC).</li>
+                            <li>Oversaw company-wide IT processes, identifying inefficiencies and proposing critical improvements based on severity and risk assessments; successfully implemented solutions that streamlined operations, reduced costs, and enhanced system efficiency.</li>
                           </ul>
                         </div>
                       </>
