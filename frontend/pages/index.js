@@ -313,23 +313,20 @@ export default function Home() {
                   <div className={styles.project2}>
                     <div className={styles.pro2Info}>
                       <span className={styles.feat}>Featured Project</span>
-                      <h3 className={styles.proName}>Featured .NET Tracking Food and Water MAUI App</h3>
+                      <h3 className={styles.proName}>Real Time Streaming Favorite Finder</h3>
                       <p className={styles.description}>
-                      Flushed is a .NET MAUI-based application designed to help users track their diet, digestive health, 
-                      and IBS symptoms in real time. The app enables users to log meals, monitor symptom, and analyze 
-                      potential triggers based on dietary intake. Built with full .NET stack, it utilizes C# and .NET 
-                      Core for backend logic, Entity Framework and SQL Server for data management, and RESTful APIs for seamless 
-                      communication between the frontend and backend. 
+                      StreamBuddy is a web application designed to help users track and manage their favorite movies and streaming platforms. 
+                      It consists of a .NET Web API backend and a Next.js frontend, with GraphQL and Apollo.
                       </p>
                       <ul className={styles.stackUl2}>
-                        <li className={styles.listItem}>MultiPlaform</li>
-                        <li className={styles.listItem}>MAUI</li>
-                        <li className={styles.listItem}>MVVM</li>
-                        <li className={styles.listItem}>XAML</li>
+                        <li className={styles.listItem}>.NET 9 API</li>
+                        <li className={styles.listItem}>Next.js</li>
+                        <li className={styles.listItem}>GraphQL</li>
+                        <li className={styles.listItem}>Apollo</li>
                       </ul>
                       <button>
                         <a
-                          href="https://github.com/zep1994/Flushed"
+                          href="https://github.com/zep1994/StreamBuddy"
                           target="_blank"
                         >
                           Learn More
@@ -347,7 +344,7 @@ export default function Home() {
                     </div>
                     <div className={styles.pro3Info}>
                       <span className={styles.feat}>Featured Project</span>
-                      <h3 className={styles.proName}>IT Internal Audit Management App</h3>
+                      <h3 className={styles.proName}>AI Company Stock Finder App</h3>
                       <p className={styles.description}>
                         The Internal Audit App is a Node.js and Python-based application designed to streamline workflow management and 
                         data analytics for internal auditing. This project enables users to create, label, and store workflows with associated 
@@ -358,15 +355,15 @@ export default function Home() {
                         web applications and audit automation tools.                      
                       </p>
                       <ul className={styles.stackUl2}>
-                        <li className={styles.listItem}>Express.js</li>
-                        <li className={styles.listItem}>Node.js</li>
-                        <li className={styles.listItem}>Python</li>
+                        <li className={styles.listItem}>API Development</li>
+                        <li className={styles.listItem}>.NET Secure API</li>
+                        <li className={styles.listItem}>Database Optimization</li>
                         <li className={styles.listItem}>EJS</li>
-                        <li className={styles.listItem}>MongoDB</li>
+                        <li className={styles.listItem}>React.js</li>
                       </ul>
                       <button>
                         <a
-                          href="https://github.com/zep1994/Internal_Audit_App"
+                          href="https://github.com/zep1994/FutureAICompaniesStockFinder"
                           target="_blank"
                         >
                           Learn More
