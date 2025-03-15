@@ -411,27 +411,53 @@ export default function Home() {
                     <div className={styles.pro1Info}>
                       <span className={styles.feat}>Featured Project</span>
                       <h3 className={styles.proName}>
-                        Roll On Jiujitsu Coaches School Management App
+                        Docker Local Network Jiujitsu School API
                       </h3>
                       <p className={styles.description}>
-                        The RollOnThePath project is a .NET MAUI-based mobile
-                        application designed to help users track and manage
-                        jiujitsu training sessions, log progress, and analyze
-                        performance over time. This project involves full-stack
-                        .NET development, using C# and .NET Core to build
-                        RESTful APIs, manage data persistence with Entity
-                        Framework and SQL Server, and integrate authentication
-                        and cloud-based features.
+                        The BJJ API Docker Local Network is a fully
+                        containerized API built for Brazilian Jiu-Jitsu
+                        enthusiasts, leveraging Docker and Docker Compose to
+                        create a modular and isolated development environment.
+                        The architecture is centered around a custom Docker
+                        network, ensuring seamless container-to-container
+                        communication without exposing internal services
+                        unnecessarily. The API itself is developed using The BJJ
+                        API Docker Local Network is a high-performance,
+                        containerized API built using .NET 9, PostgreSQL,
+                        Docker, and JWT-based authentication. This project is
+                        designed for seamless local development and deployment,
+                        leveraging Docker Compose to orchestrate the API,
+                        database, and networking configurations. The core API is
+                        developed with ASP.NET Core 9, taking advantage of its
+                        minimal APIs, dependency injection, and asynchronous
+                        data processing for optimal performance. PostgreSQL
+                        serves as the database, ensuring reliable,
+                        ACID-compliant transactions, with Entity Framework Core
+                        facilitating efficient ORM-based data access.
+                        Authentication is handled through JWT (JSON Web Tokens),
+                        enabling secure, stateless authentication across client
+                        requests. The project is structured with a clean
+                        architecture approach, following SOLID principles to
+                        maintain scalability and modularity. All services run
+                        within an isolated Docker network, allowing for seamless
+                        container-to-container communication while keeping the
+                        API secure from external interference. With automatic
+                        migrations, environment-based configuration, and a
+                        hot-reload development setup, this API is optimized for
+                        both local development and cloud deployment. Future
+                        enhancements could include GraphQL support,
+                        microservices integration, and Kubernetes orchestration
+                        for horizontal scaling.
                       </p>
                       <ul className={styles.stackUl}>
-                        <li className={styles.listItem}>VisualStudio</li>
+                        <li className={styles.listItem}>PostgreSQL</li>
                         <li className={styles.listItem}>.NET Core</li>
                         <li className={styles.listItem}>API</li>
-                        <li className={styles.listItem}>PostgreSQL</li>
+                        <li className={styles.listItem}>Docker</li>
                       </ul>
                       <button>
                         <a
-                          href="https://github.com/zep1994/RollOnThePath"
+                          href="https://github.com/zep1994/bjj-api-docker-local-network"
                           target="_blank"
                         >
                           Learn More
