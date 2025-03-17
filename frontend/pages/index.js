@@ -200,10 +200,10 @@ export default function Home() {
                               with YAML pipelines
                             </li>
                             <li>
-                              Developed and maintained cloud-based solutions
-                              leveraging Azure Functions, Logic Apps, and App
-                              Services, increasing system scalability and fault
-                              tolerance
+                              Improved user interface responsiveness and reduced
+                              page load times by 25% through the integration of
+                              Blazor and overhauled client-server interactions,
+                              significantly enhancing user experience
                             </li>
                             <li>
                               Optimized SQL Server performance, improving query
@@ -211,9 +211,31 @@ export default function Home() {
                               procedures
                             </li>
                             <li>
-                              Enhanced system security by implementing OAuth2
-                              and JWT authentication, ensuring user access
-                              control and compliance
+                              Fortified application security by deploying OAuth2
+                              and JWT authentication protocols, establishing
+                              role-based access control for 2,000+ users, and
+                              adhering to OWASP guidelines.
+                            </li>
+                            <li>
+                              Architected a seamless integration of RESTful APIs
+                              with .NET Core, Blazor, and Entity Framework,
+                              resulting in a highly responsive application
+                              interface; the solution is now utilized by over
+                              100 active users daily, improving overall user
+                              satisfaction.
+                            </li>
+                            <li>
+                              Streamlined and maintained 20+ State of
+                              Mississippi agency applications, enhancing
+                              reliability and security and improving uptime and
+                              security compliance.
+                            </li>
+                            <li>
+                              Managed and customized an existing full-stack web
+                              application, improving front-end styling, refining
+                              JSON-to-API integrations, and creating custom PDF
+                              templates that generated user-submitted data into
+                              downloadable documents.
                             </li>
                             <li>
                               Refactored legacy codebases, improving
@@ -222,27 +244,10 @@ export default function Home() {
                               and Clean Architecture.
                             </li>
                             <li>
-                              Designed and implemented automated testing
-                              strategies using Selenium, reducing
-                              post-deployment bugs by 30% and improving release
-                              stability.
-                            </li>
-                            <li>
-                              Optimized and maintained 20+ State of Mississippi
-                              agency applications, enhancing reliability and
-                              security, and improving uptime and security
-                              compliance
-                            </li>
-                            <li>
-                              Enhanced user experience and performance by
-                              leveraging Blazor for dynamic, responsive UI
-                              development, reducing page load times and
-                              improving accessibility across web applications.
-                            </li>
-                            <li>
-                              Integrated third-party APIs to streamline payment
-                              processing, user authentication, and external data
-                              services, enhancing application functionality
+                              Developed, and deployed microservices-based
+                              applications with individual .NET Core APIs hosted
+                              on IIS, ensuring service independence, modularity,
+                              and simplified maintenance and deployments.
                             </li>
                           </ul>
                         </div>
@@ -270,17 +275,16 @@ export default function Home() {
                               scalability
                             </li>
                             <li>
-                              Developed and maintained full-stack web
-                              applications, focusing on enhancing user
-                              experience, accessibility, and performance.
-                              Iterative improvements based on user feedback led
-                              to a 30% increase in customer satisfaction ratings
+                              Orchestrated strong problem-solving skills by
+                              troubleshooting complex issues in real time,
+                              reducing downtime, and maintaining 99.9%
+                              operational reliability for web applications.
                             </li>
                             <li>
-                              Led a cross-functional team in optimizing the
-                              software lifecycle process, resulting in a 25%
-                              increase in deployment frequency and a 15%
-                              reduction in post-release defects.
+                              Led a cross-functional team in solving complex
+                              software issues through innovative problem-solving
+                              techniques, resulting in a 25% reduction in bug
+                              resolution time and improved product quality.
                             </li>
                             <li>
                               Optimized server infrastructure and automated
@@ -289,11 +293,20 @@ export default function Home() {
                               and ensure smooth scaling for growing traffic.
                             </li>
                             <li>
-                              Designed and implemented process improvements for
-                              client support workflows, refining escalation
-                              procedures and automation strategies, which
-                              significantly reduced response times and improved
-                              feedback loops between technical teams and clients
+                              Optimized server infrastructure and automated
+                              deployment processes, enhancing website
+                              reliability and load balancing.
+                            </li>
+                            <li>
+                              Spearheading process improvements to streamline
+                              client support workflows, reducing resolution
+                              times and improving feedback loops.
+                            </li>
+                            <li>
+                              Proactively identified and integrated emerging
+                              trends in web technologies, resulting in a 25%
+                              increase in project efficiency and scalability
+                              across multiple projects.{" "}
                             </li>
                           </ul>
                         </div>
@@ -318,10 +331,7 @@ export default function Home() {
                               work and improved processing speed by 40%
                             </li>
                             <li>
-                              Developed a Python-based automation script to
-                              analyze and process millions of SAP records,
-                              identifying discrepancies in data resulting in
-                              saving over 10% revenue a year
+                            Built and implemented automated workflows that ran 32+ scripts, analyzed millions of records, and pinpointed anomalies within the system, which captured  3+ fraud cases and created and delivered $100,000+ in yearly savings.
                             </li>
                             <li>
                               Led full-stack LAMP stack development and
@@ -341,12 +351,7 @@ export default function Home() {
                               (SDLC).
                             </li>
                             <li>
-                              Oversaw company-wide IT processes, identifying
-                              inefficiencies and proposing critical improvements
-                              based on severity and risk assessments;
-                              successfully implemented solutions that
-                              streamlined operations, reduced costs, and
-                              enhanced system efficiency.
+                            Pioneered software application and system administrator development leadership, data migrations, system migrations; designed and implemented systems and re-platforming applications, database design, data structures, and web applications.
                             </li>
                           </ul>
                         </div>
@@ -418,36 +423,16 @@ export default function Home() {
                         containerized API built for Brazilian Jiu-Jitsu
                         enthusiasts, leveraging Docker and Docker Compose to
                         create a modular and isolated development environment.
-                        The architecture is centered around a custom Docker
-                        network, ensuring seamless container-to-container
-                        communication without exposing internal services
-                        unnecessarily. The API itself is developed using The BJJ
-                        API Docker Local Network is a high-performance,
-                        containerized API built using .NET 9, PostgreSQL,
-                        Docker, and JWT-based authentication. This project is
-                        designed for seamless local development and deployment,
-                        leveraging Docker Compose to orchestrate the API,
-                        database, and networking configurations. The core API is
-                        developed with ASP.NET Core 9, taking advantage of its
-                        minimal APIs, dependency injection, and asynchronous
-                        data processing for optimal performance. PostgreSQL
-                        serves as the database, ensuring reliable,
-                        ACID-compliant transactions, with Entity Framework Core
-                        facilitating efficient ORM-based data access.
-                        Authentication is handled through JWT (JSON Web Tokens),
-                        enabling secure, stateless authentication across client
-                        requests. The project is structured with a clean
-                        architecture approach, following SOLID principles to
-                        maintain scalability and modularity. All services run
-                        within an isolated Docker network, allowing for seamless
-                        container-to-container communication while keeping the
-                        API secure from external interference. With automatic
-                        migrations, environment-based configuration, and a
-                        hot-reload development setup, this API is optimized for
-                        both local development and cloud deployment. Future
-                        enhancements could include GraphQL support,
-                        microservices integration, and Kubernetes orchestration
-                        for horizontal scaling.
+                        The API itself is developed using The BJJ API Docker
+                        Local Network is a high-performance, containerized API
+                        built using .NET 9, PostgreSQL, Docker, and JWT-based
+                        authentication. This project is designed for seamless
+                        local development and deployment, leveraging Docker
+                        Compose to orchestrate the API, database, and networking
+                        configurations. The core API is developed with ASP.NET
+                        Core 9, taking advantage of its minimal APIs, dependency
+                        injection, and asynchronous data processing for optimal
+                        performance.
                       </p>
                       <ul className={styles.stackUl}>
                         <li className={styles.listItem}>PostgreSQL</li>
