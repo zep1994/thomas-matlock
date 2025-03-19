@@ -15,7 +15,4 @@ jobs:
           days-before-close: 7
           exempt-pr-labels: 'keep-open,do-not-close'
           stale-pr-label: 'stale'
-<<<<<<< HEAD
-        
-=======
->>>>>>> 2680cc5 (Add cleanup workflow for PR stale cleanup)
+
