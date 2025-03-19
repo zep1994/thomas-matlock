@@ -15,3 +15,7 @@ jobs:
           days-before-close: 7
           exempt-pr-labels: 'keep-open,do-not-close'
           stale-pr-label: 'stale'
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 53ceb123f62d7fef0dfccbc1959a15e0d0d1acc8
